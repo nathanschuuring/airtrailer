@@ -1,0 +1,1735 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.w-embed-youtubevideo {
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+body {
+  color: #333;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h3 {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+p {
+  line-height: 28px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.sctn-header {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/bg-image-airtrailer.jpg');
+  background-position: 0 0, 50% 0;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  display: flex;
+  box-shadow: inset 0 -20px 20px -5px #00000040;
+}
+
+.menu-item {
+  color: #fff;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  margin-left: 20px;
+  padding: 15px 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-decoration: none;
+  transition: background-color .2s;
+}
+
+.menu-item:hover {
+  background-color: #00000080;
+}
+
+.sctn-nav {
+  z-index: 1;
+  background-image: linear-gradient(#00000080 50%, #0000);
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 72px 48px;
+  display: flex;
+  position: absolute;
+}
+
+.lnk-heading {
+  color: #000;
+  text-transform: uppercase;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  margin: 6px;
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: box-shadow .2s;
+  display: flex;
+}
+
+.lnk-heading:hover {
+  box-shadow: 0 0 0 2px #3498db;
+}
+
+.txt-heading {
+  letter-spacing: .5px;
+  margin-left: 20px;
+}
+
+.dv-img-txt {
+  align-items: center;
+  display: flex;
+}
+
+.sctn-over {
+  background-image: url('../images/bmw-gs-1200-airtrailer.jpg');
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 72px;
+}
+
+.dv-left-content {
+  background-color: #fff;
+  width: 58%;
+  margin-top: 72px;
+  margin-bottom: -72px;
+  padding: 72px;
+  box-shadow: 0 20px 50px #0003;
+}
+
+.usp-list-item {
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.txt-list-item {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-top: 1px;
+  margin-left: 12px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.sctn-klantervaring {
+  margin-top: 172px;
+}
+
+.dv-klantervaring-img {
+  background-image: url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%;
+  background-size: cover;
+  width: 50%;
+}
+
+.dv-klantervaring-img.last {
+  background-image: url('../images/20230616_162754-small.jpg');
+  background-position: 50%;
+  background-size: cover;
+  order: 1;
+}
+
+.dv-klantervaring-img.klant-1 {
+  background-image: url('../images/bmw-gs.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-klantervaring {
+  display: flex;
+}
+
+.dv-klantervaring-txt {
+  width: 50%;
+  padding: 36px 53px 52px;
+}
+
+.dv-title {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.dv-klantervaring-wrapper {
+  background-color: #fff;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.btn {
+  color: #3498db;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 2px solid #3498db;
+  padding: 15px 25px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  transition: background-color .2s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #3498db;
+}
+
+.btn.margin-top {
+  margin-top: 15px;
+}
+
+.btn.margin-top.margin-bottom {
+  margin-bottom: 15px;
+}
+
+.btn.margin-top.first {
+  margin-right: 24px;
+}
+
+.btn.margin-top.margin-left {
+  margin-left: 15px;
+}
+
+.dv-bottom-button {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.sctn-tanken {
+  margin-top: 100px;
+  margin-bottom: 172px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.cv-img-tanken-bg {
+  background-image: url('../images/lassen-airtrailer-lg.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-wrapper-tanken {
+  background-color: #fff;
+  width: 590px;
+  margin-top: 72px;
+  margin-bottom: -72px;
+  padding: 54px 72px 72px;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.cntr-tanken {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.sctn-footer {
+  background-color: #000;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.cntr-footer {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.dv-footer-right-content {
+  color: #fff;
+  margin-left: 54px;
+}
+
+.dv-footer-right {
+  justify-content: flex-end;
+  width: 50%;
+  margin-top: -20px;
+  display: flex;
+}
+
+.dv-footer-left {
+  width: 50%;
+}
+
+.img-jansen-footer {
+  width: 140px;
+  margin-bottom: 16px;
+}
+
+.txt-footer-grey {
+  color: #999;
+}
+
+.txt-footer-grey.link {
+  color: #999;
+  text-decoration: underline;
+}
+
+.iframe-voorraadmodule {
+  background-color: #fff;
+  height: 750px;
+  margin-top: 50px;
+  overflow: scroll;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.seperator {
+  background-color: #dadada;
+  width: 100%;
+  height: 1px;
+}
+
+.seperator.mobile {
+  display: none;
+}
+
+.dv-header-btns {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  display: flex;
+}
+
+.img-logo {
+  width: 250px;
+}
+
+.dv-menu-bg {
+  z-index: 1000;
+  background-color: #00000073;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  position: fixed;
+}
+
+.dv-menu-wrapper {
+  color: #fff;
+  background-color: #464343;
+  width: 400px;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.txt-menu {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 13px;
+}
+
+.lnk-menu {
+  color: #fff;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  transition: box-shadow .2s;
+  display: flex;
+}
+
+.lnk-menu:hover {
+  box-shadow: 0 2px #6d6d6d;
+}
+
+.dv-menu-links, .htmlembed-klantenvertellen-menu {
+  margin-top: 50px;
+}
+
+.div-block {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.menu-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sctn-header-small {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/showroom-foto-optimized.jpg');
+  background-position: 0 0, 50% 0;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  display: flex;
+  box-shadow: inset 0 -20px 20px -5px #00000040;
+}
+
+.sctn-header-small.img-aanbod {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/garage-jansen-11.jpg'), url('../images/showroom-foto-optimized.jpg');
+  background-position: 0 0, 50%, 50% 0;
+  background-size: auto, cover, cover;
+  background-attachment: scroll, scroll, fixed;
+}
+
+.sctn-header-small.img-airtrailer-mono {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/bmw-gs-1200-airtrailer.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-financiering {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/garage-jansen-9.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-werkplaats {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/garage-jansen-31.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-verhuur {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/riding-motor-bmw-airtrailer.jpg');
+  background-position: 0 0, 50% 100%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-over-ons {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/van-bruggen-metaalbewerking.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-importservice {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/garage-jansen-4.jpg'), url('../images/showroom-foto-optimized.jpg');
+  background-position: 0 0, 50%, 50% 0;
+  background-size: auto, cover, cover;
+  background-attachment: scroll, scroll, fixed;
+}
+
+.sctn-header-small.img-vervangend-vervoer {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/garage-jansen-16.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-airtrailer-duo {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/airtrailer-duo-slider_6.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-airtrailer-scootmobiel {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/scootmobiel-met-fiets.jpeg');
+  background-position: 0 0, 50% 100%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-hoe-het-werkt {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/triump.jpg');
+  background-position: 0 0, 50% 100%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-formulier {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/bg-image-airtrailer.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.sctn-header-small.img-dealers {
+  background-image: linear-gradient(#0000004d, #0000004d), url('../images/bedrijfspand-airtrailer.webp');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.dv-header-content-wrapper {
+  background-color: #fff;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.dv-header-content {
+  display: flex;
+}
+
+.dv-header-content-img {
+  background-image: url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%;
+  background-size: cover;
+  width: 50%;
+}
+
+.dv-header-content-img.last {
+  order: 1;
+}
+
+.dv-header-content-img.img-aanbod {
+  background-image: url('../images/garage-jansen-7.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img.img-airco {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-financiering {
+  background-image: url('../images/garage-jansen-41.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-werkplaats {
+  background-image: url('../images/garage-jansen-22.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img.img-contact {
+  background-image: url('../images/airtrailer-mono-verkleind.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.dv-header-content-img.img-over-ons {
+  background-image: url('../images/lassen-airtrailer.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-importservice {
+  background-image: url('../images/garage-jansen-50.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-vervangend-vervoer {
+  background-image: url('../images/garage-jansen-28.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-airtrailer-duo {
+  text-align: center;
+  background-image: none;
+  align-self: center;
+}
+
+.dv-header-content-img.img-airtrailer-mono {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-hoe-werkt-airtrailer {
+  background-image: url('../images/Screenshot-2023-06-24-at-11.57.25.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-verhuur {
+  background-image: url('../images/20230531_153858_silder.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-formulier {
+  background-image: url('../images/Screenshot-2023-06-24-at-11.57.25.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img.img-dealers {
+  background-image: url('../images/airtrailer-bord.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-txt {
+  width: 50%;
+  padding: 5%;
+}
+
+.cntr-header-content {
+  margin-top: -20vh;
+}
+
+.sctn-header-content {
+  margin-bottom: 4%;
+}
+
+.cntr-main-content {
+  padding-bottom: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.h2-no-top-margin {
+  margin-top: 0;
+}
+
+.sctn-aanbod-main-content {
+  padding-bottom: 100px;
+}
+
+.iframe-voorraadmodule-aanbod-pagina {
+  background-color: #fff;
+  height: 750px;
+  margin-top: -32px;
+  overflow: scroll;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.dv-bottom-button-main-content {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.sctn-vervangend-vervoer {
+  margin-bottom: 172px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.cv-img-vervangend-vervoer {
+  background-image: url('../images/garage-jansen-19.jpg'), url('../images/garage-jansen-47.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.cntr-vervangend-vervoer {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.dv-wrapper-vervangend-vervoer {
+  background-color: #fff;
+  width: 590px;
+  margin-top: 72px;
+  margin-bottom: -72px;
+  padding: 54px 72px 72px;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.dv-google-maps {
+  outline-offset: 0px;
+  outline: 10px solid #fff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 30px #00000040;
+}
+
+.htmlembed-klantenvertellen-footer-mobile {
+  display: none;
+}
+
+.htmlembed-klantenvertellen-footer-desktop {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.img-logo-footer {
+  width: 150px;
+}
+
+.img-social-media {
+  width: 40px;
+}
+
+.lnk-social-media {
+  padding: 10px;
+}
+
+.lnk-social-media.first {
+  padding-left: 0;
+}
+
+.dv-openingstijden-desktop {
+  width: 100%;
+  display: flex;
+}
+
+.dv-openingstijden {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.row-openingstijden {
+  width: 25%;
+}
+
+.dont-show {
+  color: #0000;
+}
+
+.dv-openingstijden-mobile {
+  display: none;
+}
+
+.txt-link {
+  color: #3498db;
+  font-weight: 600;
+}
+
+.cntr-start {
+  background-color: #fff;
+  margin-top: -72px;
+  padding: 48px 64px 72px 72px;
+  display: block;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.dv-start-txt {
+  width: 50%;
+}
+
+.dv-start-right {
+  background-color: red;
+  width: 50%;
+}
+
+.div-block-2 {
+  display: flex;
+}
+
+.dv-start-img {
+  align-self: center;
+  width: 50%;
+}
+
+.slide {
+  background-image: url('../images/fietsdrager_silder.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-2 {
+  background-image: url('../images/bmw-gs_silder.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-3 {
+  background-image: url('../images/fietsdrager_silder.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-4 {
+  background-image: url('../images/20230616_162754-small.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-5 {
+  background-image: url('../images/bmw-met-fietsdrager.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slider {
+  height: 400px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.dv-header-content-img-airtrailer {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 32px;
+  display: flex;
+}
+
+.dv-header-content-img-airtrailer.last {
+  order: 1;
+}
+
+.dv-header-content-img-airtrailer.img-aanbod {
+  background-image: url('../images/garage-jansen-7.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer.img-airco {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer.img-financiering {
+  background-image: url('../images/garage-jansen-41.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer.img-werkplaats {
+  background-image: url('../images/garage-jansen-22.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer.img-contact {
+  background-image: url('../images/garage-jansen-48.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer.img-over-ons {
+  background-image: url('../images/lassen-airtrailer.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer.img-importservice {
+  background-image: url('../images/garage-jansen-50.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer.img-vervangend-vervoer {
+  background-image: url('../images/garage-jansen-28.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer.img-airtrailer-duo {
+  text-align: center;
+  background-image: none;
+  align-self: center;
+}
+
+.dv-header-content-img-airtrailer.img-airtrailer-mono {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer.motor-mover {
+  background-image: url('../images/ChatGPT-Image-Feb-20-2026-12_35_02-PM.png');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.dv-header-content-txt-airtrailer {
+  width: 50%;
+  padding: 32px 48px 48px;
+}
+
+.dv-header-content-img-airtrailer-mono {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+}
+
+.dv-header-content-img-airtrailer-mono.last {
+  order: 1;
+}
+
+.dv-header-content-img-airtrailer-mono.img-aanbod {
+  background-image: url('../images/garage-jansen-7.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-airco {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-financiering {
+  background-image: url('../images/garage-jansen-41.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-werkplaats {
+  background-image: url('../images/garage-jansen-22.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-contact {
+  background-image: url('../images/garage-jansen-48.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-over-ons {
+  background-image: url('../images/lassen-airtrailer.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-importservice {
+  background-image: url('../images/garage-jansen-50.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-vervangend-vervoer {
+  background-image: url('../images/garage-jansen-28.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-mono.img-airtrailer-duo {
+  text-align: center;
+  background-image: none;
+  align-self: center;
+}
+
+.dv-header-content-img-airtrailer-mono.img-airtrailer-mono {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-6 {
+  background-image: url('../images/airtrailer-duo-slider_1.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.txt-prijs {
+  color: #3498db;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.slide-7 {
+  background-image: url('../images/airtrailer-duo-slider_5.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-8 {
+  background-image: url('../images/airtrailer-duo-slider_3.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-9 {
+  background-image: url('../images/airtrailer-duo-slider.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-10 {
+  background-image: url('../images/airtrailer-duo-slider_6.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-11 {
+  background-image: url('../images/airtrailer-duo_5.jpg');
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.slide-12 {
+  background-image: url('../images/airtrailer-duo-slider_2.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slider-2 {
+  height: 400px;
+}
+
+.dv-links-social-media {
+  margin-top: 8px;
+}
+
+.slide-13 {
+  background-image: url('../images/airtrailer-scootmobiel-slider_4.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-14 {
+  background-image: url('../images/airtrailer-scootmobiel-slider_1.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.slide-15 {
+  background-image: url('../images/airtrailer-scootmobiel-slider_2.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.h1-no-top-margin {
+  margin-top: 0;
+}
+
+.dv-verhuurprijzen {
+  justify-content: space-around;
+  display: flex;
+}
+
+.p-verhuurprijs {
+  width: 100%;
+}
+
+.txt-link-faq {
+  color: #3498db;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  display: flex;
+}
+
+.cntr-content-faq {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.cntr-main-content-faq {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 48px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.dv-technische-specs {
+  display: flex;
+}
+
+.dv-row {
+  width: 70%;
+}
+
+.dv-row._30 {
+  width: 30%;
+}
+
+.h1-extra-top-margin {
+  margin-top: 32px;
+}
+
+.txt-blck-alert {
+  color: #fff;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  background-color: #c37575;
+  border-radius: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 16px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  display: inline-block;
+}
+
+.txt-blck-alert.blue {
+  background-color: #3498db;
+}
+
+.dv-alert {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.p-align-right {
+  text-align: right;
+}
+
+.youtube {
+  margin-top: 48px;
+}
+
+.p-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.dv-header-content-img-airtrailer-duo {
+  background-color: #fff;
+  background-image: url('../images/airtrailer-duo-new.jpg');
+  background-position: 50%;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  display: flex;
+}
+
+.dv-header-content-img-airtrailer-duo.last {
+  order: 1;
+}
+
+.dv-header-content-img-airtrailer-duo.img-aanbod {
+  background-image: url('../images/garage-jansen-7.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-airco {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-financiering {
+  background-image: url('../images/garage-jansen-41.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-werkplaats {
+  background-image: url('../images/garage-jansen-22.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-contact {
+  background-image: url('../images/garage-jansen-48.jpg'), url('../images/porsche-service-onderhoud.jpg');
+  background-position: 50%, 50%;
+  background-size: cover, cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-over-ons {
+  background-image: url('../images/lassen-airtrailer.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-importservice {
+  background-image: url('../images/garage-jansen-50.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-vervangend-vervoer {
+  background-image: url('../images/garage-jansen-28.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.dv-header-content-img-airtrailer-duo.img-airtrailer-duo {
+  text-align: center;
+  background-image: none;
+  align-self: center;
+}
+
+.dv-header-content-img-airtrailer-duo.img-airtrailer-mono {
+  background-image: url('../images/airtrailer-mono.png');
+  background-position: 50%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .sctn-header {
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  .lnk-heading {
+    width: 40%;
+    margin: 1%;
+  }
+
+  .sctn-over {
+    margin-top: 0;
+  }
+
+  .dv-left-content {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5%;
+  }
+
+  .sctn-klantervaring {
+    margin-top: 0;
+  }
+
+  .dv-klantervaring-img {
+    width: 30%;
+  }
+
+  .dv-klantervaring-txt {
+    width: 70%;
+    padding: 5%;
+  }
+
+  .sctn-tanken {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .dv-wrapper-tanken {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 4% 5% 5%;
+  }
+
+  .sctn-footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .iframe-voorraadmodule {
+    margin-top: 0;
+  }
+
+  .dv-header-btns {
+    width: 100%;
+  }
+
+  .lnk-menu:hover {
+    box-shadow: none;
+  }
+
+  .sctn-header-small {
+    flex-direction: column;
+  }
+
+  .dv-header-content-img {
+    width: 30%;
+  }
+
+  .dv-header-content-txt {
+    width: 70%;
+    padding: 5%;
+  }
+
+  .sctn-aanbod-main-content {
+    display: none;
+  }
+
+  .iframe-voorraadmodule-aanbod-pagina {
+    margin-top: 0;
+  }
+
+  .sctn-vervangend-vervoer {
+    margin-top: 0;
+    margin-bottom: 4%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .dv-wrapper-vervangend-vervoer {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 4% 5% 5%;
+  }
+
+  .dv-header-content-img-airtrailer {
+    width: 50%;
+  }
+
+  .dv-header-content-txt-airtrailer {
+    padding: 5%;
+  }
+
+  .dv-header-content-img-airtrailer-mono, .dv-header-content-img-airtrailer-duo {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+  .sctn-header {
+    height: 50vh;
+  }
+
+  .menu-item {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .sctn-nav {
+    background-image: linear-gradient(#000000c9 50%, #0000);
+    padding: 32px 24px;
+  }
+
+  .lnk-heading {
+    padding: 10px 15px;
+  }
+
+  .txt-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .dv-left-content {
+    box-shadow: none;
+    padding: 8%;
+  }
+
+  .txt-list-item {
+    font-size: 10px;
+  }
+
+  .sctn-klantervaring {
+    padding-top: 4%;
+    padding-bottom: 8%;
+  }
+
+  .dv-klantervaring-img {
+    width: 100%;
+    height: 200px;
+    margin-top: 4%;
+  }
+
+  .dv-klantervaring-img.last {
+    order: -1;
+    margin-top: 8%;
+  }
+
+  .dv-klantervaring {
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .dv-klantervaring-txt {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .dv-title {
+    text-align: left;
+    padding-bottom: 0;
+    padding-left: 8%;
+  }
+
+  .dv-klantervaring-wrapper {
+    box-shadow: none;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .btn.margin-top {
+    margin-top: 10px;
+  }
+
+  .btn.margin-top.margin-bottom {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .btn.margin-top.first {
+    margin-right: 16px;
+  }
+
+  .btn.margin-top.margin-left {
+    margin-left: 10px;
+  }
+
+  .dv-bottom-button {
+    padding-top: 0;
+  }
+
+  .dv-wrapper-tanken {
+    box-shadow: none;
+    padding-bottom: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .sctn-footer {
+    padding-top: 8%;
+    padding-bottom: 9%;
+  }
+
+  .dv-footer-right-content {
+    margin-left: 8%;
+  }
+
+  .dv-footer-right-content.right {
+    margin-left: 4%;
+  }
+
+  .dv-footer-right {
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .dv-footer-left {
+    width: 100%;
+    padding-left: 8%;
+  }
+
+  .img-jansen-footer {
+    width: 110px;
+  }
+
+  .seperator.mobile {
+    display: block;
+  }
+
+  .img-header-btn {
+    width: 30px;
+  }
+
+  .img-logo {
+    width: 150px;
+  }
+
+  .dv-menu-wrapper {
+    width: 320px;
+    padding: 8%;
+  }
+
+  .txt-menu {
+    margin-left: 10px;
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .lnk-menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .dv-menu-links, .htmlembed-klantenvertellen-menu {
+    margin-top: 8%;
+  }
+
+  .img-menu-icons {
+    width: 30px;
+  }
+
+  .dv-header-content {
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .dv-header-content-img {
+    width: 100%;
+    height: 200px;
+    margin-top: 0%;
+  }
+
+  .dv-header-content-img.last {
+    order: -1;
+    margin-top: 8%;
+  }
+
+  .dv-header-content-txt {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .sctn-header-content {
+    margin-bottom: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .cntr-main-content.padding-top {
+    padding-top: 4%;
+  }
+
+  .dv-bottom-button-main-content {
+    padding-top: 0;
+  }
+
+  .sctn-vervangend-vervoer {
+    margin-bottom: 0%;
+  }
+
+  .dv-wrapper-vervangend-vervoer {
+    box-shadow: none;
+    margin-top: 0%;
+    padding: 4% 8%;
+  }
+
+  .h3-footer {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .p-footer {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .htmlembed-klantenvertellen-footer-mobile {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .htmlembed-klantenvertellen-footer-desktop {
+    display: none;
+  }
+
+  .img-logo-footer {
+    width: 100px;
+  }
+
+  .img-social-media {
+    width: 30px;
+  }
+
+  .dv-openingstijden-desktop {
+    display: none;
+  }
+
+  .dv-openingstijden-mobile {
+    display: block;
+  }
+
+  .cntr-start {
+    margin-top: 0;
+    padding: 5% 8% 8%;
+  }
+
+  .dv-start-txt {
+    order: 1;
+    width: 100%;
+  }
+
+  .div-block-2 {
+    flex-direction: column;
+  }
+
+  .dv-start-img {
+    width: 100%;
+  }
+
+  .slider {
+    height: 200px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .dv-header-content-img-airtrailer {
+    width: 100%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .dv-header-content-img-airtrailer.last {
+    order: -1;
+    margin-top: 8%;
+  }
+
+  .dv-header-content-txt-airtrailer {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .dv-header-content-img-airtrailer-mono {
+    width: 100%;
+    padding-bottom: 0%;
+  }
+
+  .dv-header-content-img-airtrailer-mono.last {
+    order: -1;
+    margin-top: 8%;
+  }
+
+  .txt-prijs {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+  .slider-2 {
+    height: 200px;
+  }
+
+  .cntr-content-faq.padding-top, .cntr-main-content-faq.padding-top {
+    padding-top: 4%;
+  }
+
+  .h1-extra-top-margin {
+    margin-top: 24px;
+  }
+
+  .txt-blck-alert {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .youtube {
+    margin-top: 8%;
+  }
+
+  .column-no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .dv-header-content-img-airtrailer-duo {
+    width: 100%;
+    min-height: 250px;
+    padding-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .dv-header-content-img-airtrailer-duo.last {
+    order: -1;
+    margin-top: 8%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sctn-header {
+    height: 440px;
+  }
+
+  .menu-item.contact {
+    display: none;
+  }
+
+  .lnk-heading {
+    width: 80%;
+  }
+
+  .dv-header-btns {
+    margin-top: 40px;
+  }
+
+  .dv-header-content-img-airtrailer-duo {
+    min-height: 200px;
+  }
+}
+
+

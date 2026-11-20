@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Gegenereerd door scripts/build-kennisbank.mjs uit content/kennisbank.json. Niet met de hand aanpassen. -->
+<html lang="nl" data-wf-page="649aad925da4e011fb1e2f56" data-wf-site="649597df066e65c4b7cec5ad">
+<head>
+{{> head}}
+</head>
+<body class="kb-page">
+{{> header}}
+  <main id="inhoud" class="kb-main">
+    <div class="kb-sheet w-container">
+      <nav class="kb-breadcrumb" aria-label="Kruimelpad">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><span aria-current="page">Veelgestelde vragen</span></li>
+        </ol>
+      </nav>
+      <h1 class="kb-overview-title">{{heading}}</h1>
+      <p class="kb-lead">{{intro}}</p>
+      <form class="kb-search" role="search" action="{{basePath}}" hidden data-kb-search>
+        <label for="kb-zoek">Zoek in {{total}} vragen</label>
+        <div class="kb-search-field">
+          <input type="search" id="kb-zoek" name="q" autocomplete="off" spellcheck="false" placeholder="Bijvoorbeeld: borg, Tempo-100 of fietsendrager" aria-describedby="kb-zoekstatus">
+          <button type="button" class="kb-search-clear" hidden data-kb-clear>Wissen</button>
+        </div>
+        <p id="kb-zoekstatus" class="kb-search-status" role="status" aria-live="polite" data-kb-status></p>
+      </form>
+      <nav class="kb-categories" aria-label="Onderwerpen">
+        <ul>
+{{#categories}}
+          <li><a href="#{{slug}}">{{name}} <span class="kb-count" aria-hidden="true">{{count}}</span><span class="kb-visually-hidden">, {{count}} vragen</span></a></li>
+{{/categories}}
+        </ul>
+      </nav>
+    </div>
+    <div class="kb-overview w-container">
+{{#categories}}
+      <section class="kb-category" id="{{slug}}" aria-labelledby="{{slug}}-titel" data-kb-category>
+        <h2 id="{{slug}}-titel">{{name}}</h2>
+        <p class="kb-category-intro">{{intro}}</p>
+        <ul class="kb-cards">
+{{#articles}}
+          <li class="kb-card" data-kb-item data-kb-terms="{{terms}}">
+            <h3 class="kb-card-title"><a href="{{href}}">{{question}}</a></h3>
+            <p>{{summary}}</p>
+          </li>
+{{/articles}}
+        </ul>
+      </section>
+{{/categories}}
+      <div class="kb-empty" hidden data-kb-empty>
+        <h2>Geen vragen gevonden</h2>
+        <p>Probeer een ander zoekwoord of <a href="/contact">stel uw vraag rechtstreeks aan ons</a>.</p>
+      </div>
+      <section class="kb-cta kb-cta-wide" aria-labelledby="vraag-niet-gevonden">
+        <h2 id="vraag-niet-gevonden" class="kb-label">Staat uw vraag er niet bij?</h2>
+        <p>Neem contact met ons op. Wij helpen u graag verder met advies over aanschaf, verhuur, onderdelen of onderhoud.</p>
+        <div class="kb-cta-actions">
+          <a href="/contact" class="kb-btn" data-kb-cta="contact">Neem contact op</a>
+          <a href="/airtrailer-verhuur" class="kb-btn kb-btn-secondary" data-kb-cta="verhuur">Airtrailer huren</a>
+        </div>
+      </section>
+    </div>
+  </main>
+{{> footer}}
+  <script src="/js/kennisbank.js"></script>
+</body>
+</html>

@@ -1,0 +1,1980 @@
+{
+  "site": {
+    "name": "Airtrailer",
+    "baseUrl": "https://www.airtrailer.nl",
+    "basePath": "/veelgestelde-vragen",
+    "language": "nl"
+  },
+  "overview": {
+    "title": "Veelgestelde vragen over motortrailers | Airtrailer",
+    "description": "Antwoorden op vragen over de Airtrailer Mono en Duo, motortrailer huren, accessoires, Tempo-100, onderdelen, onderhoud en reparatie.",
+    "heading": "Veelgestelde vragen over motortrailers",
+    "intro": "Antwoorden op de vragen die wij het vaakst krijgen over de Airtrailer Mono en Duo: van aanschaf en accessoires tot verhuur, documenten en onderhoud. Elke vraag heeft een eigen pagina met een uitgebreid antwoord."
+  },
+  "categories": [
+    {
+      "slug": "algemeen",
+      "name": "Algemeen",
+      "intro": "Mono of Duo, laden zonder oprijplaat en vervoer van zware motoren."
+    },
+    {
+      "slug": "aanschaf-en-levering",
+      "name": "Aanschaf en levering",
+      "intro": "Prijzen, levertijd, bezichtigen, inruil en gebruikte trailers."
+    },
+    {
+      "slug": "accessoires-en-opties",
+      "name": "Accessoires en opties",
+      "intro": "Fietsendragers, sloten, disselverlenging en maatwerk."
+    },
+    {
+      "slug": "rijbewijs-keuring-en-documenten",
+      "name": "Rijbewijs, keuring en documenten",
+      "intro": "Rijbewijs, typegoedkeuring, CoC-document en Tempo-100."
+    },
+    {
+      "slug": "verhuur",
+      "name": "Verhuur",
+      "intro": "Een Airtrailer huren: kosten, borg, ophalen en terugbrengen."
+    },
+    {
+      "slug": "onderhoud-service-en-onderdelen",
+      "name": "Onderhoud, service en onderdelen",
+      "intro": "Onderdelen bestellen, reparatie, luchtbalg en bandenspanning."
+    },
+    {
+      "slug": "van-vossen",
+      "name": "Van Vossen",
+      "intro": "Het verschil tussen een Van Vossen-trailer en een Airtrailer."
+    },
+    {
+      "slug": "contact-en-bezoek",
+      "name": "Contact en bezoek",
+      "intro": "Adres, openingstijden en contact met Airtrailer in Kampen."
+    }
+  ],
+  "siteLinks": {
+    "mono": {
+      "href": "/mono",
+      "page": "Airtrailer Mono",
+      "label": "Airtrailer Mono: specificaties en prijs"
+    },
+    "duo": {
+      "href": "/airtrailer-duo",
+      "page": "Airtrailer Duo",
+      "label": "Airtrailer Duo: specificaties en prijs"
+    },
+    "scootmobiel": {
+      "href": "/airtrailer-scootmobiel",
+      "page": "Airtrailer Scootmobiel",
+      "label": "Airtrailer Scootmobiel"
+    },
+    "werking": {
+      "href": "/hoe-werkt-de-airtrailer",
+      "page": "Instructie",
+      "label": "Instructie: zo werkt de Airtrailer, stap voor stap"
+    },
+    "verhuur": {
+      "href": "/airtrailer-verhuur",
+      "page": "Airtrailer huren",
+      "label": "Airtrailer huren: huurprijzen en aanvraag"
+    },
+    "contact": {
+      "href": "/contact",
+      "page": "Contact",
+      "label": "Contact, adres en route"
+    },
+    "dealers": {
+      "href": "/dealers",
+      "page": "Verkooppunten",
+      "label": "Verkooppunten in Nederland en Duitsland"
+    },
+    "over-ons": {
+      "href": "/over-ons",
+      "page": "Over ons",
+      "label": "Over ons: wie de Airtrailer bouwt"
+    }
+  },
+  "ctaTypes": {
+    "advies": {
+      "heading": "Persoonlijk advies",
+      "text": "Geef het merk en type van uw motor door en beschrijf uw situatie. Wij denken graag met u mee.",
+      "actions": [
+        {
+          "href": "/contact"
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Neem contact op",
+      "text": "Op de contactpagina vindt u het contactformulier, het telefoonnummer en ons adres.",
+      "actions": [
+        {
+          "href": "/contact"
+        }
+      ]
+    },
+    "bezoek": {
+      "heading": "Langskomen in Kampen",
+      "text": "U vindt ons aan de Betonstraat 25 in Kampen. Neem bij voorkeur vooraf contact op, dan staat de juiste trailer voor u klaar.",
+      "actions": [
+        {
+          "href": "/contact"
+        }
+      ]
+    },
+    "prijs": {
+      "text": "De prijsaanvraag staat op de pagina van het model. Kies het model waarvoor u een prijsopgave wilt ontvangen.",
+      "actions": [
+        {
+          "label": "Prijsaanvraag Mono",
+          "href": "/mono"
+        },
+        {
+          "label": "Prijsaanvraag Duo",
+          "href": "/airtrailer-duo"
+        }
+      ]
+    },
+    "modellen": {
+      "text": "Bekijk per model de specificaties, afmetingen en prijs.",
+      "actions": [
+        {
+          "label": "Airtrailer Mono",
+          "href": "/mono"
+        },
+        {
+          "label": "Airtrailer Duo",
+          "href": "/airtrailer-duo"
+        }
+      ]
+    },
+    "werking": {
+      "heading": "Zo werkt de Airtrailer",
+      "text": "Bekijk stap voor stap hoe u de laadvloer laat zakken, uw motor plaatst en vastzet.",
+      "actions": [
+        {
+          "href": "/hoe-werkt-de-airtrailer"
+        }
+      ]
+    },
+    "verhuur": {
+      "heading": "Een Airtrailer huren",
+      "text": "Op de verhuurpagina vindt u de huurprijzen per week en het aanvraagformulier.",
+      "actions": [
+        {
+          "href": "/airtrailer-verhuur"
+        }
+      ]
+    },
+    "service": {
+      "heading": "Werkplaats en onderdelen",
+      "text": "Stuur een foto van uw trailer mee en vermeld zo mogelijk het bouwjaar en chassisnummer. Dan kunnen wij u gericht helpen.",
+      "actions": [
+        {
+          "href": "/contact"
+        }
+      ]
+    },
+    "documenten": {
+      "heading": "Vragen over documenten",
+      "text": "Vermeld het chassisnummer van uw trailer, dan kunnen wij gericht in onze administratie zoeken.",
+      "actions": [
+        {
+          "href": "/contact"
+        }
+      ]
+    },
+    "vanvossen": {
+      "heading": "Airtrailer of Van Vossen?",
+      "text": "Lees hoe u aan de merknaam en typeplaat ziet welke trailer u heeft.",
+      "actions": [
+        {
+          "href": "/veelgestelde-vragen/van-vossen-of-airtrailer"
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "category": "algemeen",
+      "slug": "mono-of-duo",
+      "question": "Wat is het verschil tussen de Airtrailer Mono en Duo?",
+      "title": "Airtrailer Mono of Duo: welke motortrailer past bij u? | Airtrailer",
+      "description": "Vergelijk de Airtrailer Mono en Duo op het aantal motoren, laadvermogen en gebruik. Ontdek welke luchtgeveerde motortrailer bij uw wensen past.",
+      "lead": "De Airtrailer Mono is ontwikkeld voor het vervoer van één motorfiets. De Airtrailer Duo biedt ruimte voor twee motorfietsen en kan ook worden ingericht voor één motor in het midden. Beide modellen hebben een luchtgeveerde, zakkende laadvloer, waardoor u uw motor eenvoudig kunt laden en lossen.",
+      "sections": [
+        {
+          "heading": "Welke uitvoering past bij uw gebruik?",
+          "paragraphs": [
+            "Wie doorgaans één motor meeneemt naar een vakantiebestemming, circuit of weekend weg, heeft aan de Mono meestal voldoende. De Mono is gericht op compact vervoer van één motorfiets. De Duo is bedoeld voor wie samen op pad gaat met twee motoren, of meer mogelijkheden nodig heeft voor een specifieke combinatie van lading. Bij vervoer van één motor op de Duo kan een extra SteadyStand in het midden worden geplaatst."
+          ]
+        },
+        {
+          "heading": "Let ook op het gewicht",
+          "paragraphs": [
+            "De keuze draait niet alleen om het aantal motoren. Een combinatie van twee zware touringmotoren kan de toegestane belading van de Duo overschrijden. Neem bij uw berekening ook accessoires en andere bagage mee. Controleer daarnaast wat uw auto ongeremd mag trekken. In beide gevallen is de zakkende laadvloer het kenmerkende uitgangspunt: u hoeft geen losse oprijplaat mee te nemen. Geef bij twijfel de typen motoren en uw gebruikssituatie door; dan adviseren wij welke uitvoering het meest geschikt is."
+          ]
+        }
+      ],
+      "relatedIds": [
+        6,
+        16,
+        8
+      ],
+      "cta": {
+        "type": "modellen",
+        "label": "Bekijk de Mono en Duo"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 2,
+      "category": "algemeen",
+      "slug": "oprijplaat-nodig",
+      "question": "Heb ik een oprijplaat nodig om mijn motor op de Airtrailer te rijden?",
+      "title": "Motortrailer zonder losse oprijplaat | Airtrailer",
+      "description": "Ontdek hoe de zakkende laadvloer van de Airtrailer helpt bij het laden van uw motor, zonder een losse oprijplaat te gebruiken.",
+      "lead": "Nee. Dankzij de luchtvering kan de laadvloer tot vlak bij de grond worden verlaagd. U heeft daardoor geen losse oprijplaat nodig.",
+      "sections": [
+        {
+          "heading": "Hoe werkt een zakkende laadvloer?",
+          "paragraphs": [
+            "Bij veel traditionele motortrailers moet een motor via een losse oprijplaat naar de laadvloer worden gereden. De Airtrailer werkt anders: door de luchtvering kan de laadvloer worden verlaagd. Hierdoor hoeft u een motor niet via een hoge, smalle losse plaat omhoog te manoeuvreren. Dat maakt vooral bij een zware motor of bij regelmatig laden en lossen een merkbaar verschil in gebruiksgemak."
+          ]
+        },
+        {
+          "heading": "Van laden naar transport",
+          "paragraphs": [
+            "De SteadyStand ondersteunt het voorwiel tijdens het plaatsen van de motor. Vervolgens zet u de motor vast en brengt u de trailer volgens de gebruiksinstructie in transportstand. De voorwielklem vervangt de voorgeschreven spanbanden niet. Gebruik de trailer uitsluitend volgens de handleiding, op een geschikte ondergrond en met de juiste borging. Wilt u zien hoe dit in de praktijk werkt? Bij ons in Kampen kunt u de werking van de laadvloer bekijken. Bij aflevering leggen wij het gebruik uit."
+          ]
+        }
+      ],
+      "relatedIds": [
+        3,
+        42,
+        11
+      ],
+      "cta": {
+        "type": "werking",
+        "label": "Bekijk de werking van de Airtrailer"
+      },
+      "links": [
+        "werking"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 3,
+      "category": "algemeen",
+      "slug": "zelfstandig-motor-laden",
+      "question": "Kan ik zelfstandig mijn motor op de Airtrailer laden?",
+      "title": "Zelfstandig een motor op een trailer laden | Airtrailer",
+      "description": "Lees hoe de Airtrailer zelfstandig laden en lossen eenvoudiger maakt met een zakkende laadvloer en SteadyStand.",
+      "lead": "Ja. De Airtrailer is ontwikkeld om zelfstandig laden en lossen zo eenvoudig mogelijk te maken. De zakkende laadvloer en SteadyStand-voorwielklem helpen u hierbij. Volg altijd de gebruiksinstructies.",
+      "sections": [
+        {
+          "heading": "Wat maakt zelfstandig laden makkelijker?",
+          "paragraphs": [
+            "Een motorfiets tegelijkertijd in balans houden en op een aanhanger manoeuvreren kan lastig zijn, zeker bij een hoge laadvloer. Met de Airtrailer wordt de hoogte van de laadvloer aangepast. Daarnaast helpt de SteadyStand-voorwielklem om de motor tijdens het plaatsen te ondersteunen. Zo is het ontwerp gericht op minder handelingen en meer gemak bij het meenemen van uw motor."
+          ]
+        },
+        {
+          "heading": "Veiligheid komt eerst",
+          "paragraphs": [
+            "Zelfstandig laden betekent niet dat elke motor of situatie geschikt is om zonder hulp te werken. Gewicht, lengte, ondergrond en uw eigen ervaring spelen allemaal een rol. Gebruik de handleiding voor de exacte volgorde van laden, vastzetten, omhoogbrengen en borgen. Controleer vóór vertrek de bevestiging van de motor en de transportstand van de trailer. Bent u niet gewend om met een trailer te werken, oefen dan eerst onder begeleiding. Bij aflevering demonstreren wij het proces; u kunt ook vooraf langskomen om te beoordelen of de werkwijze bij u past."
+          ]
+        }
+      ],
+      "relatedIds": [
+        2,
+        7,
+        11
+      ],
+      "cta": {
+        "type": "bezoek",
+        "label": "Vraag een demonstratie aan"
+      },
+      "links": [
+        "werking"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 4,
+      "category": "algemeen",
+      "slug": "zware-motor-vervoeren",
+      "question": "Is de Airtrailer geschikt voor zware motoren, zoals een Honda Goldwing, BMW of Harley-Davidson?",
+      "title": "Motortrailer voor Goldwing, BMW en Harley-Davidson | Airtrailer",
+      "description": "Wilt u een Goldwing, BMW of Harley-Davidson meenemen? Lees hoe u controleert of gewicht, wielbasis en trekauto geschikt zijn voor een Airtrailer.",
+      "lead": "Ja, mits het rijklare gewicht en de afmetingen binnen de specificaties van de trailer vallen. Geef ons bij een zware of lange motorfiets het merk en type door; wij kijken graag met u mee.",
+      "sections": [
+        {
+          "heading": "Controleer uw eigen motorvariant",
+          "paragraphs": [
+            "Het gewicht van een toer- of cruisermotor verschilt per uitvoering. Kijk naar het rijklare gewicht: dus niet alleen een drooggewicht uit een brochure. Reken ook koffers, accessoires en eventuele bagage mee voor zover deze tijdens het transport op de motor blijven. De wielbasis, bandbreedte en totale afmetingen zijn eveneens belangrijk; een motor kan in gewicht passen maar toch om een aangepaste bevestiging vragen."
+          ]
+        },
+        {
+          "heading": "Welk model is geschikt?",
+          "paragraphs": [
+            "Voor één motor is de Mono een logische eerste keuze. Voor twee motoren kijkt u naar de Duo, waarop de gezamenlijke lading maximaal 550 kg mag bedragen bij de huidige uitvoering. Controleer bovendien het toegestane ongeremde trekgewicht en de kogeldruk van uw auto. De zakkende laadvloer is juist bij een zware motor prettig, omdat u geen losse hoge oprijplaat nodig heeft. Stuur ons het exacte merk, model en bouwjaar en vermeld welke accessoires u wilt meenemen. Dan kunnen wij de combinatie gericht beoordelen, in plaats van een algemene toezegging te doen voor alle uitvoeringen van een motor."
+          ]
+        }
+      ],
+      "relatedIds": [
+        6,
+        1,
+        22
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Laat uw motor controleren op geschiktheid"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 5,
+      "category": "algemeen",
+      "slug": "geremde-motortrailer",
+      "question": "Is de Airtrailer ook geremd verkrijgbaar?",
+      "title": "Geremde of ongeremde Airtrailer: wat is leverbaar? | Airtrailer",
+      "description": "De Mono en Duo worden nieuw uitsluitend ongeremd geleverd. Lees waarom Airtrailer voor lichte trailers kiest en wat dit betekent voor uw auto.",
+      "lead": "Nee. Wij richten ons op lichte, ongeremde motortrailers. Zowel de Mono als de Duo wordt uitsluitend ongeremd geleverd. De eerder geproduceerde geremde Duo is niet meer nieuw verkrijgbaar.",
+      "sections": [
+        {
+          "heading": "Waarom alleen ongeremd?",
+          "paragraphs": [
+            "Airtrailer heeft gekozen voor lichte motortrailers met een relatief laag eigen gewicht. Het uitgangspunt is eenvoudig vervoer van motorfietsen met een luchtgeveerde laadvloer. De geremde Duo behoorde eerder tot het assortiment, maar wordt niet meer geproduceerd. Een oude vermelding van een geremde uitvoering is dan ook geen actuele besteloptie."
+          ]
+        },
+        {
+          "heading": "Is ongeremd geschikt voor uw auto?",
+          "paragraphs": [
+            "Kijk in de voertuigdocumenten naar het maximale ongeremde aanhangergewicht. Dat is niet hetzelfde als het hogere geremde trekgewicht dat bij veel auto's wordt vermeld. Het gewicht van de trailer inclusief motoren, accessoires en bagage moet binnen de toepasselijke grenzen blijven. Ook kan de keuze voor ongeremd gevolgen hebben voor een Duitse Tempo-100 toelating. Heeft u vanwege het gewicht of uw trekauto een geremde motortrailer nodig, dan is de huidige Airtrailer niet altijd de passende keuze. Wij adviseren liever vooraf een geschikte oplossing dan een ongeschikte trailer te verkopen."
+          ]
+        }
+      ],
+      "relatedIds": [
+        22,
+        24,
+        1
+      ],
+      "cta": {
+        "type": "modellen",
+        "label": "Bekijk de ongeremde modellen"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 6,
+      "category": "algemeen",
+      "slug": "twee-zware-motoren-duo",
+      "question": "Kan ik twee zware motoren op de Airtrailer Duo vervoeren?",
+      "title": "Twee zware motoren op de Airtrailer Duo | Airtrailer",
+      "description": "Bereken of twee motoren op de Airtrailer Duo passen. Lees een voorbeeld van rijklare gewichten en ontdek waar u op moet letten.",
+      "lead": "De Airtrailer Duo heeft een maximaal laadvermogen van 550 kg. Het gezamenlijke rijklare gewicht van beide motoren en overige lading mag dit niet overschrijden. Twee zware touringmotoren kunnen samen te zwaar zijn. Controleer bij twijfel de specificaties met ons.",
+      "sections": [
+        {
+          "heading": "Een praktisch rekenvoorbeeld",
+          "paragraphs": [
+            "Stel dat de ene motor rijklaar 240 kg weegt en de andere 260 kg. Samen is dat 500 kg; er resteert dan 50 kg binnen een laadvermogen van 550 kg voor overige lading. Twee motoren van elk 375 kg komen daarentegen samen al op 750 kg uit. Die combinatie is te zwaar voor de Duo, ook wanneer beide motoren qua wielbasis zouden passen."
+          ]
+        },
+        {
+          "heading": "Controleer meer dan alleen de optelsom",
+          "paragraphs": [
+            "Het genoemde laadvermogen geldt voor de huidige specificatie; de gegevens op de typeplaat en bijbehorende documenten van uw trailer zijn leidend. Accessoires kunnen invloed hebben op de beschikbare belading. Controleer ook de afmetingen van beide motoren, de bevestigingsmogelijkheden, gewichtsverdeling en de limieten van het trekkende voertuig. Voor de huidige Duo geldt als indicatie een wielbasis tot 1,80 m; laat bij lange of brede modellen vooraf controleren of de daadwerkelijke configuratie past. Stuur ons de twee exacte motortypen, inclusief eventuele koffers of andere lading."
+          ]
+        }
+      ],
+      "relatedIds": [
+        4,
+        1,
+        5
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Vraag een advies voor twee motoren aan"
+      },
+      "links": [
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 7,
+      "category": "algemeen",
+      "slug": "steadystand-voorwielklem",
+      "question": "Kan ik de voorwielklem verplaatsen of verwijderen?",
+      "title": "SteadyStand voorwielklem verplaatsen of verwijderen | Airtrailer",
+      "description": "Leer waarvoor de SteadyStand dient en welke aandachtspunten gelden bij het verplaatsen of verwijderen van de voorwielklem.",
+      "lead": "Ja, de SteadyStand is verplaatsbaar en demonteerbaar. Hierdoor kunt u de positie aanpassen aan uw motor, rekening houdend met de juiste gewichtsverdeling en toegestane kogeldruk.",
+      "sections": [
+        {
+          "heading": "Wat doet de SteadyStand?",
+          "paragraphs": [
+            "De SteadyStand is de voorwielklem waarin het voorwiel van de motor wordt geplaatst. Deze helpt de motor rechtop te ondersteunen voordat deze volgens de instructie wordt vastgezet. Een andere positie kan nodig zijn wanneer de wielbasis of vorm van de motor verschilt van uw eerdere motor."
+          ]
+        },
+        {
+          "heading": "Waarom is de positie belangrijk?",
+          "paragraphs": [
+            "Door de positie van een motor op de trailer te veranderen, verandert ook de gewichtsverdeling en daarmee de kogeldruk. Een voorwielklem die fysiek op een bepaalde plaats past, betekent dus niet automatisch dat die positie geschikt is voor transport. Raadpleeg de handleiding en de toegestane waarden van zowel trailer als trekauto. Controleer of de bevestiging geschikt is voor uw generatie Airtrailer; boor niet op eigen initiatief nieuwe montagegaten. De klem is geen vervanging voor de vereiste spanbanden. Als u een andere motor wilt vervoeren of op de Duo één motor centraal wilt plaatsen, bekijken wij graag met u welke montagepositie passend is."
+          ]
+        }
+      ],
+      "relatedIds": [
+        3,
+        4,
+        21
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Vraag advies over uw voorwielklem"
+      },
+      "links": [
+        "werking"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 8,
+      "category": "aanschaf-en-levering",
+      "slug": "prijs-airtrailer",
+      "question": "Wat kost een Airtrailer?",
+      "title": "Wat kost een Airtrailer Mono of Duo? | Airtrailer",
+      "description": "Bekijk de basisprijzen van de Airtrailer Mono en Duo en lees hoe accessoires en uitvoering de totaalprijs bepalen.",
+      "lead": "De laatst gecommuniceerde basisprijzen bedragen € 3.350 voor de Airtrailer Mono en € 5.450 voor de Airtrailer Duo, inclusief btw. De uiteindelijke prijs hangt af van de gekozen uitvoering en accessoires.",
+      "sections": [
+        {
+          "heading": "Basisprijs en opties",
+          "paragraphs": [
+            "De basisprijs is het vertrekpunt voor uw persoonlijke samenstelling. Veel klanten kiezen naast de trailer bijvoorbeeld een compressor, spanbanden, steunwiel en een disselslot. Wie regelmatig langere reizen maakt, kan ook een reservewiel met bevestigingsbeugel overwegen. Voor vervoer van fietsen naast een motor zijn er specifieke dragers en voor extra bergruimte is een aluminium opbergkist beschikbaar."
+          ]
+        },
+        {
+          "heading": "Hoe krijgt u een complete prijs?",
+          "paragraphs": [
+            "Geef aan of u de Mono of Duo wilt, welk type motor u vervoert en welke accessoires bij uw gebruik passen. Wij kunnen de opties afzonderlijk vermelden, zodat duidelijk is waaruit het totaalbedrag bestaat. Niet alle opties kunnen tegelijk op dezelfde trailer worden gemonteerd. De Black Edition en bijzondere maatwerkaanpassingen hebben eveneens invloed op de prijs. De genoemde vanafprijzen zijn inclusief btw; de actuele offerte is leidend voor de gekozen uitvoering en standaarduitrusting. Zo betaalt u niet onnodig voor accessoires die u niet gebruikt en weet u vooraf welke onderdelen nodig zijn."
+          ]
+        }
+      ],
+      "relatedIds": [
+        15,
+        12,
+        9
+      ],
+      "cta": {
+        "type": "prijs",
+        "label": "Vraag een vrijblijvende prijsopgave aan"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 9,
+      "category": "aanschaf-en-levering",
+      "slug": "levertijd-airtrailer",
+      "question": "Wat is de levertijd van een Airtrailer?",
+      "title": "Levertijd van een Airtrailer Mono of Duo | Airtrailer",
+      "description": "Lees welke factoren de levertijd van een Airtrailer bepalen en hoe u tijdig een motortrailer bestelt voor uw vakantie.",
+      "lead": "De levertijd hangt af van de voorraad, productieplanning en gewenste uitvoering. Speciale uitvoeringen zoals de Black Edition of maatwerk kunnen langer duren. Bij uw prijsaanvraag informeren wij u over de actuele levertijd.",
+      "sections": [
+        {
+          "heading": "Voorraad of productie op bestelling",
+          "paragraphs": [
+            "De levertijd kan verschillen tussen de Mono en Duo en is mede afhankelijk van de vraag naar nieuwe trailers. Als een passende uitvoering beschikbaar is, kan deze eerder gereed zijn dan een trailer die nog moet worden geproduceerd of samengesteld. De beschikbaarheid van onderdelen en accessoires kan daarbij ook een rol spelen."
+          ]
+        },
+        {
+          "heading": "Extra tijd voor uw wensen",
+          "paragraphs": [
+            "Een zwart gepoedercoate uitvoering of een speciale maatwerkoplossing kan extra werkzaamheden vergen. Wilt u de trailer meenemen op vakantie, naar een circuitdag of op een andere vaste datum, vermeld dan de gewenste ophaaldatum bij uw aanvraag. Wij kunnen dan beoordelen wat in de productieplanning haalbaar is. De levertijd die u bij uw offerte ontvangt is een actuele indicatie en geen algemene levertijdbelofte voor alle modellen. Zodra een trailer gereed is, stemmen wij het ophalen met u af. Geef wijzigingen in uw gewenste samenstelling bij voorkeur zo vroeg mogelijk door, zodat de planning daarop kan worden aangepast."
+          ]
+        }
+      ],
+      "relatedIds": [
+        8,
+        12,
+        10
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Informeer naar de actuele levertijd"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 10,
+      "category": "aanschaf-en-levering",
+      "slug": "airtrailer-bekijken",
+      "question": "Kan ik een Airtrailer eerst bekijken voordat ik deze aanschaf?",
+      "title": "Airtrailer bekijken en demonstratie in Kampen | Airtrailer",
+      "description": "Bekijk de Airtrailer in Kampen en ontdek tijdens een demonstratie hoe de motortrailer en zakkende laadvloer werken.",
+      "lead": "Jazeker! U bent van harte welkom bij ons in Kampen. Wij laten u graag zien hoe de Airtrailer werkt en adviseren u over de uitvoering die het beste bij uw motor en wensen past.",
+      "sections": [
+        {
+          "heading": "Wat kunt u tijdens een bezoek bekijken?",
+          "paragraphs": [
+            "U kunt zich een beter beeld vormen van de laadvloer, SteadyStand en plaats van accessoires dan vanaf een foto alleen. Vooral wanneer u een zware motor, camper met fietsendrager of een bijzondere combinatie heeft, kan het prettig zijn om uw wensen samen door te nemen. Wij kunnen uitleggen wat de verschillen zijn tussen de Mono en Duo en welke opties voor uw situatie relevant zijn."
+          ]
+        },
+        {
+          "heading": "Bereid uw bezoek voor",
+          "paragraphs": [
+            "Neem bij voorkeur vooraf contact op, zodat een specialist aanwezig is en het model dat u wilt zien beschikbaar is. Geef ons door wanneer u wilt langskomen en of u een technische vraag of juist aankoopadvies heeft. U kunt ook het type motor, de wielbasis en het rijklare gewicht alvast doorgeven. Wilt u uw motor of fietsen meenemen om de mogelijkheden te beoordelen, stem dat dan vooraf af. U vindt ons aan de Betonstraat 25 in Kampen, op werkdagen. Een bezoek is ook een goed moment om het gebruik van de zakkende laadvloer te zien voordat u een keuze maakt."
+          ]
+        }
+      ],
+      "relatedIds": [
+        11,
+        46,
+        47
+      ],
+      "cta": {
+        "type": "bezoek",
+        "label": "Plan uw bezoek"
+      },
+      "links": [
+        "contact",
+        "dealers"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 11,
+      "category": "aanschaf-en-levering",
+      "slug": "uitleg-bij-aflevering",
+      "question": "Krijg ik bij het ophalen uitleg over de werking van de Airtrailer?",
+      "title": "Airtrailer ophalen: uitleg bij aflevering | Airtrailer",
+      "description": "Lees welke uitleg u bij aflevering van uw nieuwe Airtrailer krijgt en hoe u zich voorbereidt op het eerste gebruik.",
+      "lead": "Ja. Bij het ophalen van uw nieuwe Airtrailer demonstreren wij hoe de trailer en luchtvering werken en hoe u uw motor op de trailer bevestigt.",
+      "sections": [
+        {
+          "heading": "Wat behandelen we bij het ophalen?",
+          "paragraphs": [
+            "Bij de aflevering kunt u de werking van de zakkende laadvloer en de luchtvering in de praktijk zien. Ook leggen wij uit hoe u de motor met de SteadyStand plaatst, hoe u deze volgens de instructies vastzet, hoe u de trailer in transportstand brengt en waar u bij het borgen op let. Eventuele gekozen accessoires kunnen eveneens worden toegelicht."
+          ]
+        },
+        {
+          "heading": "Voor uw eerste rit",
+          "paragraphs": [
+            "Neem voldoende tijd om vragen te stellen. Controleer welke documenten bij uw trailer horen, welke instructie van toepassing is en hoe de compressor werkt. Als u met uw eigen trekauto komt, zorg dan dat het toegestane trekgewicht en de aansluiting geschikt zijn. Vraag vooraf naar eventuele gegevens die wij nodig hebben voor de aflevering. Wij vinden het belangrijk dat u niet alleen met een nieuwe trailer naar huis gaat, maar ook begrijpt hoe u deze gebruikt. Bewaar de handleiding en neem bij twijfel over een handeling contact met ons op."
+          ]
+        }
+      ],
+      "relatedIds": [
+        3,
+        42,
+        7
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Neem contact op over uw aflevering"
+      },
+      "links": [
+        "werking"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 12,
+      "category": "aanschaf-en-levering",
+      "slug": "black-edition",
+      "question": "Is de Airtrailer ook in het zwart verkrijgbaar?",
+      "title": "Airtrailer Black Edition: motortrailer in zwart | Airtrailer",
+      "description": "Ontdek de zwarte Airtrailer Black Edition en lees hoe uitvoering, accessoires en productieplanning samenhangen.",
+      "lead": "Ja. Met de Black Edition kiest u voor een zwarte uitvoering van de Airtrailer. Informeer bij ons naar de mogelijkheden en actuele meerprijs.",
+      "sections": [
+        {
+          "heading": "Een andere uitstraling",
+          "paragraphs": [
+            "De Black Edition is bedoeld voor motorrijders die hun Airtrailer graag in een zwarte uitvoering willen laten realiseren. Informeer naar de beschikbaarheid van de zwarte uitvoering voor uw gekozen model. De technische geschiktheid voor uw motor blijft bepaald door het gekozen model en de toegestane specificaties, niet alleen door de kleur."
+          ]
+        },
+        {
+          "heading": "Stel uw uitvoering samen",
+          "paragraphs": [
+            "Naast de afwerking kunt u nadenken over opties zoals lichtmetalen velgen, verlichting, een opbergkist of een SCM-gekeurd slot. Deze opties zijn niet automatisch onderdeel van iedere Black Edition. Informeer daarom welke onderdelen in uw gewenste uitvoering zijn inbegrepen en welke als afzonderlijke optie worden aangeboden. Een speciale poedercoatafwerking kan invloed hebben op de levertijd. Wanneer u een nieuwe Airtrailer in zwart wilt, geef dan het model en de gewenste extra's door. Wij maken vervolgens een passende prijsopgave en geven een indicatie van de planning. Wilt u eerst weten hoe de zwarte afwerking eruitziet, vraag dan naar de beschikbare demonstratiemogelijkheden."
+          ]
+        }
+      ],
+      "relatedIds": [
+        8,
+        9,
+        15
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Vraag naar de Black Edition"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 13,
+      "category": "aanschaf-en-levering",
+      "slug": "airtrailer-inruilen",
+      "question": "Kan ik mijn huidige Airtrailer inruilen?",
+      "title": "Een gebruikte Airtrailer inruilen voor een nieuwe | Airtrailer",
+      "description": "Lees hoe inruil in overleg werkt en wanneer particuliere verkoop van uw huidige Airtrailer aantrekkelijk kan zijn.",
+      "lead": "Inruil is in overleg mogelijk. Wij adviseren vaak om uw huidige Airtrailer eerst particulier te verkopen, omdat dit financieel meestal aantrekkelijker is.",
+      "sections": [
+        {
+          "heading": "Inruil of zelf verkopen?",
+          "paragraphs": [
+            "Als u bijvoorbeeld van een Duo naar een Mono overstapt, kunt u informeren naar inruil. Het voordeel is dat u niet zelf een koper hoeft te zoeken. Bij particuliere verkoop heeft u daarentegen vaak meer invloed op de vraagprijs en kan de opbrengst hoger zijn. Een inruilwaarde is geen vaste korting op de nieuwprijs; deze hangt samen met de staat, uitvoering en verkoopbaarheid van de gebruikte trailer."
+          ]
+        },
+        {
+          "heading": "Welke informatie helpt bij de beoordeling?",
+          "paragraphs": [
+            "Stuur foto's van de gehele trailer, de typeplaat en eventuele beschadigingen. Vermeld het bouwjaar, model, accessoires en bekende onderhouds- of reparatiepunten. Geef ook aan welke nieuwe Airtrailer u overweegt. Daarmee kunnen wij beoordelen of inruil op dat moment passend is. Een eventuele inruilprijs wordt afgestemd nadat de trailer voldoende is beoordeeld. Wilt u vooral weten wat de beste keuze is voor uw huidige situatie, vraag dan eerst naar de mogelijkheden zonder direct een afspraak voor verkoop te maken."
+          ]
+        }
+      ],
+      "relatedIds": [
+        14,
+        8,
+        36
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Vraag naar inruilmogelijkheden"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 14,
+      "category": "aanschaf-en-levering",
+      "slug": "tweedehands-airtrailer",
+      "question": "Verkopen jullie ook tweedehands Airtrailers?",
+      "title": "Tweedehands Airtrailer kopen: gebruikte verhuurmodellen | Airtrailer",
+      "description": "Lees wanneer gebruikte Airtrailers mogelijk beschikbaar komen en waarop u let bij aanschaf van een tweedehands motortrailer.",
+      "lead": "Wij verkopen voornamelijk nieuwe Airtrailers. Aan het einde van het motorseizoen bieden wij doorgaans gebruikte verhuurmodellen te koop aan. Neem contact met ons op voor de actuele beschikbaarheid.",
+      "sections": [
+        {
+          "heading": "Wanneer komen gebruikte trailers beschikbaar?",
+          "paragraphs": [
+            "Wij verkopen in de eerste plaats nieuwe Airtrailers. Na het motorseizoen worden gebruikte verhuurmodellen doorgaans verkocht. Het aanbod wisselt en wij hebben niet gedurende het gehele jaar occasions beschikbaar. Het is verstandig om tijdig naar de beschikbaarheid te vragen wanneer u specifiek naar een gebruikte Mono of Duo zoekt."
+          ]
+        },
+        {
+          "heading": "Waarop letten bij een gebruikte trailer?",
+          "paragraphs": [
+            "Bij aankoop van een tweedehands motortrailer is het bouwjaar van belang, omdat onderdelen en constructies tussen generaties kunnen verschillen. Controleer de typeplaat, beschikbare documenten, toestand van banden, verlichting en de werking van de luchtvering. Vraag bij twijfel naar het onderhoudsverleden. Controleer ook of het daadwerkelijk een Airtrailer is; Van Vossen-trailers gebruiken een vergelijkbaar concept maar zijn een ander product. Als u een oude advertentie of een particuliere aanbieding heeft gevonden, baseer uw aankoop dan op de kenmerken van die specifieke trailer. Wij kunnen onderzoeken welke onderdelen of documenten voor echte Airtrailers nog beschikbaar zijn."
+          ]
+        }
+      ],
+      "relatedIds": [
+        13,
+        33,
+        25
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Informeer naar gebruikte Airtrailers"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 15,
+      "category": "accessoires-en-opties",
+      "slug": "accessoires-airtrailer",
+      "question": "Welke accessoires zijn verkrijgbaar voor de Airtrailer?",
+      "title": "Accessoires voor de Airtrailer Mono en Duo | Airtrailer",
+      "description": "Bekijk de verschillende soorten Airtrailer-accessoires en ontdek welke opties aansluiten bij uw gebruik en beschikbare montageplaatsen.",
+      "lead": "U kunt uw Airtrailer naar wens samenstellen met onder meer een accucompressor, spanbanden, steunwiel, reservewiel met bevestigingsbeugel, disselslot, SCM-gekeurd onderbouwslot, aluminium opbergkist, fietsendragers, lichtmetalen velgen en LED-verlichting. De mogelijkheden hangen af van het model en bouwjaar.",
+      "sections": [
+        {
+          "heading": "Kies accessoires op basis van uw gebruik",
+          "paragraphs": [
+            "Voor laden en vastzetten zijn een passende compressor en spanbanden relevant. Een steunwiel helpt bij het manoeuvreren van een geschikte, stilstaande trailer. Voor langere ritten kunt u een reservewiel met bijbehorende beugel overwegen. Een disselslot of SCM-onderbouwslot kan van belang zijn wanneer u de trailer onbeheerd parkeert of wanneer uw verzekeraar een bepaald keurmerk verlangt."
+          ]
+        },
+        {
+          "heading": "Extra lading en uitstraling",
+          "paragraphs": [
+            "Met een opbergkist kunt u benodigde kleine spullen meenemen, binnen de toegestane belading. Fietsendragers bieden mogelijkheden om naast de motor fietsen te vervoeren. Voor een andere uitstraling zijn er opties zoals lichtmetalen velgen, LED-verlichting of een zwarte afwerking. Houd rekening met de beschikbare montageplaatsen: op de Mono kunnen verschillende opties dezelfde ruimte innemen. Bij een bestaande Airtrailer kan het bouwjaar bepalen welke onderdelen passen. Laat daarom vooraf controleren welke combinatie geschikt is en welke accessoires al tot de uitvoering behoren. Bij een offerte kunnen wij de geselecteerde onderdelen en prijzen apart vermelden."
+          ]
+        }
+      ],
+      "relatedIds": [
+        18,
+        19,
+        16
+      ],
+      "cta": {
+        "type": "prijs",
+        "label": "Stel uw Airtrailer samen"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 16,
+      "category": "accessoires-en-opties",
+      "slug": "motor-en-fietsen-vervoeren",
+      "question": "Kan ik naast mijn motor ook fietsen meenemen op de Airtrailer?",
+      "title": "Motor en twee fietsen op één Airtrailer Mono | Airtrailer",
+      "description": "Lees hoe de nieuwste Airtrailer Mono kan worden ingericht voor één motor en twee fietsen en wanneer extra voorbereiding nodig is.",
+      "lead": "Ja. Op de nieuwste generatie Airtrailer Mono kunnen aan weerszijden fietsendragers worden gemonteerd. Zo kunt u een motor en twee fietsen vervoeren, mits het totale gewicht en de afmetingen binnen de toegestane specificaties blijven.",
+      "sections": [
+        {
+          "heading": "Hoe ziet de combinatie eruit?",
+          "paragraphs": [
+            "De motor staat in het midden, met aan weerszijden een fietsendrager op daarvoor geschikte bevestigingsbeugels. Daardoor hoeft u niet noodzakelijk een aparte fietsendrager op de trekauto te gebruiken. Deze mogelijkheid is specifiek bedoeld voor de nieuwste generatie Airtrailer; achteraf monteren op oudere modellen is niet zonder meer mogelijk."
+          ]
+        },
+        {
+          "heading": "Controleer de belading en vrije ruimte",
+          "paragraphs": [
+            "Niet alleen het gewicht van de motor telt mee. Ook de fietsen, de dragers en de overige lading moeten samen binnen de toegestane grenzen blijven. Daarnaast kunnen breedte van het stuur, fietstassen of de vorm van de motor invloed hebben op de beschikbare ruimte. De standaard fietsendragers zijn geschikt voor fietsen tot 25 kg per stuk. Omdat beide accessoireplaatsen bezet zijn door de fietsendragers, is bijvoorbeeld een opbergkist op een van die plaatsen niet tegelijkertijd mogelijk. Stuur ons het type motor en fietsen en de gewichten; wij bekijken welke opstelling geschikt is. Montage van fietsendragers op een bestaande geschikte trailer doen wij in overleg in onze werkplaats."
+          ]
+        }
+      ],
+      "relatedIds": [
+        17,
+        18,
+        20
+      ],
+      "cta": {
+        "type": "prijs",
+        "label": "Vraag een offerte met fietsendragers aan"
+      },
+      "links": [
+        "mono"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 17,
+      "category": "accessoires-en-opties",
+      "slug": "elektrische-fietsen-airtrailer",
+      "question": "Zijn de fietsendragers ook geschikt voor elektrische fietsen?",
+      "title": "Elektrische fietsen vervoeren op een Airtrailer | Airtrailer",
+      "description": "Lees welke e-bikes op de standaard fietsendragers passen en hoe Airtrailer zwaardere fietsen als maatwerk kan beoordelen.",
+      "lead": "Ja. Onze standaard fietsendragers zijn geschikt voor elektrische fietsen tot 25 kg per fiets. Heeft u zwaardere fietsen? Neem contact met ons op om de mogelijkheden voor maatwerk te bespreken.",
+      "sections": [
+        {
+          "heading": "Gewicht per fiets is bepalend",
+          "paragraphs": [
+            "De standaard dragers zijn bedoeld voor fietsen tot 25 kg per stuk. Een elektrische fiets kan door een accu, stevige constructie of accessoires aanzienlijk zwaarder zijn dan een reguliere fiets. Controleer daarom het gewicht in de uitvoering waarin u de fiets daadwerkelijk wilt vervoeren. Ook wanneer het totale laadvermogen van de trailer voldoende is, mag de belastbaarheid van een individuele drager niet worden overschreden."
+          ]
+        },
+        {
+          "heading": "Wat als uw e-bike te zwaar is?",
+          "paragraphs": [
+            "Bij zwaardere e-bikes kunnen wij onderzoeken of een aangepaste opstelling mogelijk is. In plaats van een te zware fiets op een standaarddrager te plaatsen, kan bijvoorbeeld worden gekeken naar een passende bevestiging op de laadvloer van een Duo. Zo'n oplossing is afhankelijk van de afmetingen, hoeveelheid fietsen, eventuele motor en de beschikbare montage- en bevestigingsruimte. Geef ons het merk, type, gewicht en de maatvoering van de fietsen. Wij kunnen dan bepalen of standaardaccessoires volstaan of dat een maatwerkadvies nodig is. Een fysieke passing in Kampen kan daarbij nuttig zijn."
+          ]
+        }
+      ],
+      "relatedIds": [
+        16,
+        21,
+        6
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Laat uw elektrische fietsen beoordelen"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 18,
+      "category": "accessoires-en-opties",
+      "slug": "accessoires-combineren",
+      "question": "Kan ik alle accessoires tegelijkertijd op mijn Airtrailer laten monteren?",
+      "title": "Welke Airtrailer-accessoires kunnen samen? | Airtrailer",
+      "description": "Ontdek welke accessoires dezelfde montageplaats gebruiken op de Mono en hoe u een passende configuratie kiest.",
+      "lead": "Niet alle accessoires kunnen tegelijk worden gemonteerd. Op de Mono is aan beide zijden ruimte voor één accessoire, bijvoorbeeld een fietsendrager aan de ene zijde en een opbergkist aan de andere zijde.",
+      "sections": [
+        {
+          "heading": "Twee accessoireplaatsen",
+          "paragraphs": [
+            "Op de Mono is aan weerszijden van de trailer ruimte voor één van de betreffende zijaccessoires. Een combinatie van twee fietsendragers gebruikt die ruimte aan beide zijden. Een fietsendrager links en een opbergkist rechts is een ander voorbeeld van een mogelijke samenstelling. Een reservewiel met bevestigingsbeugel kan eveneens beslag leggen op ruimte die voor een andere optie nodig is."
+          ]
+        },
+        {
+          "heading": "Begin met uw belangrijkste gebruiksdoel",
+          "paragraphs": [
+            "Wilt u altijd twee fietsen meenemen, dan hebben de twee fietsendragers prioriteit. Gaat u vooral met de motor op reis en wilt u gereedschap of andere benodigde spullen meenemen, dan kan een opbergkist beter passen. Denk ook aan het totale gewicht van de gekozen accessoires. Een disselverlenging creëert meer ruimte tussen de trailer en het trekkende voertuig, maar vormt niet automatisch een extra montageplaats voor een opbergkist. Geef bij uw prijsaanvraag aan welke accessoires voor u onmisbaar zijn. Wij controleren vervolgens of de gekozen configuratie technisch past, of er alternatieven nodig zijn en welke onderdelen bij uw model horen."
+          ]
+        }
+      ],
+      "relatedIds": [
+        15,
+        16,
+        20
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Vraag een passende configuratie aan"
+      },
+      "links": [
+        "mono"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 19,
+      "category": "accessoires-en-opties",
+      "slug": "disselslot-of-scm-slot",
+      "question": "Wat is het verschil tussen een disselslot en een SCM-gekeurd onderbouwslot?",
+      "title": "Disselslot of SCM-gekeurd onderbouwslot? | Airtrailer",
+      "description": "Vergelijk een regulier ABUS-disselslot met een SCM-gekeurd onderbouwslot en lees welke eisen uw verzekeraar kan stellen.",
+      "lead": "Een regulier disselslot biedt eenvoudige diefstalbeveiliging. Het SCM-gekeurde onderbouwslot wordt permanent onder de koppeling gemonteerd en biedt uitgebreidere beveiliging. Sommige verzekeraars stellen een SCM-slot als voorwaarde; controleer uw polis.",
+      "sections": [
+        {
+          "heading": "Twee verschillende beveiligingsoplossingen",
+          "paragraphs": [
+            "Een regulier ABUS-disselslot is een eenvoudige oplossing voor de koppeling van de trailer. Een SCM-gekeurd onderbouwslot wordt permanent gemonteerd onder de koppeling en is ontworpen om de trailer uitgebreider tegen ongewenst koppelen of ontkoppelen te beveiligen. Het vaste deel blijft op de trailer, waardoor het slot bij de betreffende uitvoering geïntegreerd is in de beveiligingsoplossing."
+          ]
+        },
+        {
+          "heading": "Welk slot verlangt uw verzekeraar?",
+          "paragraphs": [
+            "Bij een verzekering kan een specifiek keurmerk of type slot een voorwaarde zijn. Controleer daarom vooraf de polis en eventuele eisen voor stalling of parkeren. Geen enkel slot biedt een garantie dat diefstal niet kan plaatsvinden. Gebruik het slot altijd volgens de instructie van de fabrikant. Heeft u reeds een Airtrailer en wilt u een onderbouwslot laten monteren, dan kan een bezoek aan onze werkplaats nodig zijn. Stuur ons informatie over uw koppeling en het model van uw trailer. Wij kunnen beoordelen welke slotoplossing passend is en wat de montage inhoudt."
+          ]
+        }
+      ],
+      "relatedIds": [
+        15,
+        8,
+        30
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Vraag naar de passende diefstalbeveiliging"
+      },
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 20,
+      "category": "accessoires-en-opties",
+      "slug": "disselverlenging",
+      "question": "Waarvoor dient een disselverlenging?",
+      "title": "Disselverlenging voor een Airtrailer en camper | Airtrailer",
+      "description": "Lees wanneer een disselverlenging nuttig kan zijn, bijvoorbeeld bij een camper met een fietsendrager op de achterzijde.",
+      "lead": "Een disselverlenging creëert extra ruimte tussen het trekkende voertuig en de Airtrailer. Dat kan handig zijn wanneer achter op uw camper of auto al een fietsendrager is gemonteerd.",
+      "sections": [
+        {
+          "heading": "Meer afstand tot het trekkende voertuig",
+          "paragraphs": [
+            "Wanneer u achter op een camper of auto al een fietsendrager heeft, kan de ruimte tussen de fietsen en de motor op de Airtrailer beperkt zijn. Een disselverlenging kan extra afstand creëren. In eerdere configuraties is een verlenging van ongeveer 30 cm besproken. De geschikte maat en uitvoering hangen af van de trailer en het trekkende voertuig."
+          ]
+        },
+        {
+          "heading": "Waarom vooraf passen belangrijk is",
+          "paragraphs": [
+            "De benodigde ruimte gaat niet alleen over de afstand wanneer de combinatie recht staat. Ook bij bochten en manoeuvreren moet voldoende ruimte aanwezig zijn. Een verlenging kan gevolgen hebben voor de geometrie, gewichtsverdeling en toegestane configuratie. Gebruik uitsluitend een oplossing die voor uw trailer en koppeling geschikt is en laat de montage beoordelen. De disselverlenging is niet bedoeld als extra bevestigingsplaats voor een opbergkist. Stuur foto's van de achterzijde van uw voertuig, de fietsendrager en de gewenste motor. Dan kunnen wij gerichter beoordelen of de verlenging in uw situatie zinvol is."
+          ]
+        }
+      ],
+      "relatedIds": [
+        16,
+        18,
+        21
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Vraag advies over de disselverlenging"
+      },
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 21,
+      "category": "accessoires-en-opties",
+      "slug": "maatwerk-motortrailer",
+      "question": "Is maatwerk mogelijk?",
+      "title": "Motortrailer op maat: mogelijkheden bij Airtrailer | Airtrailer",
+      "description": "Lees hoe Airtrailer maatwerk beoordeelt voor bijzondere motoren, scooters, zware e-bikes en afwijkende transportwensen.",
+      "lead": "Zeker. Heeft u specifieke wensen voor een bijzondere motorfiets, scooter, elektrische fiets of ander voertuig? Wij denken graag mee over een passende oplossing.",
+      "sections": [
+        {
+          "heading": "Van wens naar passende opstelling",
+          "paragraphs": [
+            "Standaard motortrailers zijn niet voor elke lading ideaal. Misschien wilt u een bijzondere motor combineren met fietsen, een scooter meenemen of een afwijkend voertuig veilig kunnen bevestigen. Bij een maatwerkaanvraag kijken wij eerst naar de werkelijke maten, gewichten en bevestigingspunten. De zakkende laadvloer kan bij bepaalde ladingen voordelen bieden, maar de combinatie moet altijd technisch geschikt zijn."
+          ]
+        },
+        {
+          "heading": "Wat hebben wij nodig?",
+          "paragraphs": [
+            "Geef ons een omschrijving van wat u wilt vervoeren, inclusief foto's, merk, type, lengte, breedte, wielbasis en rijklaar gewicht waar van toepassing. Vermeld ook het trekkende voertuig en welke andere accessoires u wilt combineren. Bij ingewikkelde configuraties kan het handig zijn om in Kampen met het betreffende voertuig of de fietsen langs te komen. Dan kunnen wij de mogelijkheden nauwkeuriger beoordelen. Maatwerk is afhankelijk van technische haalbaarheid, belastbaarheid en de toepasselijke goedkeuringen. Een prijs en planning kunnen pas worden vastgesteld wanneer de benodigde aanpassingen duidelijk zijn."
+          ]
+        }
+      ],
+      "relatedIds": [
+        17,
+        20,
+        4
+      ],
+      "cta": {
+        "type": "advies",
+        "label": "Bespreek uw maatwerkaanvraag"
+      },
+      "links": [
+        "scootmobiel",
+        "over-ons"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 22,
+      "category": "rijbewijs-keuring-en-documenten",
+      "slug": "rijbewijs-motortrailer",
+      "question": "Heb ik een speciaal rijbewijs nodig voor de Airtrailer?",
+      "title": "Welk rijbewijs heeft u nodig voor een Airtrailer? | Airtrailer",
+      "description": "Lees waarom rijbewijs B voor de huidige lichte Airtrailers in Nederland volstaat en welke gewichtsgrenzen u daarnaast moet controleren.",
+      "lead": "Voor de huidige ongeremde Airtrailer-modellen met een toegestane maximummassa van maximaal 750 kg is in Nederland rijbewijs B voldoende. Uw trekauto moet daarnaast geschikt zijn voor de beladen trailer; controleer altijd de voertuigdocumenten.",
+      "sections": [
+        {
+          "heading": "Rijbewijs en trekgewicht zijn twee verschillende zaken",
+          "paragraphs": [
+            "De huidige ongeremde Airtrailer-modellen vallen in de lichte aanhangwagencategorie. Controleer de toegestane maximummassa op de documenten van uw trailer. Dat u met rijbewijs B een lichte aanhanger mag rijden, betekent nog niet dat iedere auto iedere beladen motortrailer mag trekken. Het toegestane ongeremde trekgewicht van de auto kan lager liggen dan de maximummassa van de trailer."
+          ]
+        },
+        {
+          "heading": "Controleer uw combinatie",
+          "paragraphs": [
+            "Tel het gewicht van de trailer, motoren, accessoires en overige lading bij elkaar op. Vergelijk dit met de grenzen op de voertuigdocumenten en controleer de toegestane kogeldruk. Bij oudere geremde uitvoeringen kunnen andere gegevens gelden. Voor ritten naar het buitenland gelden daarnaast lokale regels en snelheidslimieten. Raadpleeg bij twijfel de officiële rijbewijsinformatie van de Rijksoverheid en uw voertuigdocumenten. Geef ons het model Airtrailer en het type motor door als u advies wilt over de geschiktheid van de trailer."
+          ]
+        }
+      ],
+      "relatedIds": [
+        5,
+        6,
+        24
+      ],
+      "cta": {
+        "type": "modellen",
+        "label": "Bekijk de specificaties van uw model"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "externalLinks": [
+        {
+          "label": "Rijksoverheid: met welk rijbewijs mag ik een auto met aanhangwagen besturen?",
+          "href": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/rijbewijs/met-welk-rijbewijs-mag-ik-een-motorvoertuig-met-aanhangwagen-besturen"
+        }
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 23,
+      "category": "rijbewijs-keuring-en-documenten",
+      "slug": "europese-typegoedkeuring",
+      "question": "Is de Airtrailer Europees typegoedgekeurd?",
+      "title": "Europese typegoedkeuring en CoC van de Airtrailer | Airtrailer",
+      "description": "Lees welke typegoedkeuringsdocumenten bij een nieuwe Airtrailer horen en wat deze betekenen voor registratie en gebruik.",
+      "lead": "Ja. Nieuwe Airtrailers beschikken over een Europese typegoedkeuring. Bij aanschaf ontvangt u de bijbehorende typegoedkeuringsdocumenten en het Certificate of Conformity (CoC).",
+      "sections": [
+        {
+          "heading": "Wat is een CoC-document?",
+          "paragraphs": [
+            "Een Certificate of Conformity is een conformiteitsverklaring die betrekking heeft op de goedgekeurde voertuiguitvoering. Het document bevat technische gegevens waarmee de trailer kan worden geïdentificeerd, waaronder de toepasselijke typegoedkeuringsgegevens. Bewaar dit document zorgvuldig samen met de andere papieren van de trailer. Het kan van belang zijn bij registratie, verkoop of vragen over de technische specificaties."
+          ]
+        },
+        {
+          "heading": "Wat betekent de goedkeuring voor gebruik in het buitenland?",
+          "paragraphs": [
+            "Een Europese typegoedkeuring is niet hetzelfde als iedere nationale registratie of aanvullende toelating. Een land kan bijvoorbeeld eigen administratieve procedures hebben. De Duitse Tempo-100 regeling is eveneens een aparte kwestie: de trailer én de combinatie met de auto moeten aan de toepasselijke voorwaarden voldoen. Bij oudere modellen kan de documentatie afwijken van die van nieuwe Airtrailers. Heeft u vragen over een specifieke trailer, geef dan het chassisnummer en eventueel het bouwjaar door. Wij kunnen de beschikbare documentatie onderzoeken."
+          ]
+        }
+      ],
+      "relatedIds": [
+        25,
+        26,
+        24
+      ],
+      "cta": {
+        "type": "documenten",
+        "label": "Vraag naar de documenten bij uw Airtrailer"
+      },
+      "links": [
+        "mono",
+        "duo"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 24,
+      "category": "rijbewijs-keuring-en-documenten",
+      "slug": "tempo-100-duitsland",
+      "question": "Mag ik met de Airtrailer 100 km/u rijden in Duitsland?",
+      "title": "Tempo-100 in Duitsland met een Airtrailer | Airtrailer",
+      "description": "Ontdek het verschil tussen Europese typegoedkeuring en Duitse Tempo-100 toelating en hoe u uw auto-trailercombinatie laat beoordelen.",
+      "lead": "Ja, maar uitsluitend als uw combinatie voldoet aan de voorwaarden van de Duitse Tempo-100 regeling en u over de vereiste officiële toelating beschikt. Dat is een aanvullende regeling naast de Europese typegoedkeuring.",
+      "sections": [
+        {
+          "heading": "Typegoedkeuring is geen Tempo-100 toelating",
+          "paragraphs": [
+            "De Europese typegoedkeuring beschrijft de goedgekeurde trailer. Voor de Duitse Tempo-100 regeling gelden aanvullende voorwaarden. Onder meer de toegestane maximummassa van de aanhanger, het leeggewicht van het trekkende voertuig en de geschiktheid en leeftijd van de banden spelen een rol. Bij ongeremde trailers is de gewichtsverhouding een belangrijk aandachtspunt. Een verklaring van de fabrikant of een 100-km-sticker alleen is geen vervanging voor de officiële procedure."
+          ]
+        },
+        {
+          "heading": "Hoe regelt u de toelating?",
+          "paragraphs": [
+            "Laat de combinatie beoordelen door een bevoegde keuringsinstantie, bijvoorbeeld DEKRA. Neem de voertuiggegevens van de trekauto en de typegoedkeuringsdocumenten van de trailer mee. Vraag vooraf welke verklaring of aanvullende documenten van Airtrailer nodig zijn. Ga niet alleen uit van het feitelijke gewicht van uw motor op dat moment: de toepasselijke toegestane maximummassa kan doorslaggevend zijn. Rijd uitsluitend met de hogere snelheid wanneer de officiële toelating is geregeld en de combinatie aan de geldende voorwaarden voldoet. Voor huurtrailers dient u de status vooraf afzonderlijk te controleren."
+          ]
+        }
+      ],
+      "relatedIds": [
+        5,
+        23,
+        34
+      ],
+      "cta": {
+        "type": "documenten",
+        "label": "Bespreek uw Tempo-100 aanvraag"
+      },
+      "externalLinks": [
+        {
+          "label": "DEKRA: Tempo-100",
+          "href": "https://shop.dekra.nl/diensten/tempo-100/"
+        }
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 25,
+      "category": "rijbewijs-keuring-en-documenten",
+      "slug": "coc-document-kwijt",
+      "question": "Ik ben mijn CoC-document kwijt. Kan ik een kopie ontvangen?",
+      "title": "CoC-document van uw Airtrailer kwijt: een kopie aanvragen | Airtrailer",
+      "description": "Lees hoe u een verloren CoC-document van uw Airtrailer kunt opvragen en welke gegevens nodig zijn voor het archiefonderzoek.",
+      "lead": "Wij kunnen nagaan of de gegevens nog in onze administratie beschikbaar zijn. Stuur ons het chassisnummer, bouwjaar en bij voorkeur een foto van uw Airtrailer. Voor oudere modellen kunnen wij niet garanderen dat de documenten nog beschikbaar zijn.",
+      "sections": [
+        {
+          "heading": "Welke gegevens hebben wij nodig?",
+          "paragraphs": [
+            "Geef het volledige chassisnummer door zoals het op de trailer of typeplaat staat. Stuur daarnaast het model, het vermoedelijke bouwjaar en duidelijke foto's van de trailer en typeplaat. Vermeld waarom u het document nodig heeft, bijvoorbeeld vanwege verkoop of registratie in het buitenland. Zo kunnen wij in onze administratie gericht zoeken naar de juiste uitvoering."
+          ]
+        },
+        {
+          "heading": "Is een kopie altijd beschikbaar?",
+          "paragraphs": [
+            "Bij nieuwere Airtrailers is er doorgaans meer documentatie beschikbaar dan bij oudere generaties. Een kopie is daarom niet in alle gevallen te leveren. Voor trailers die onder een andere fabrikant zijn geproduceerd, zoals Van Vossen, kunnen wij geen CoC van die fabrikant verstrekken. Ontbreken de oorspronkelijke documenten en zijn de gegevens niet meer beschikbaar, informeer dan bij de bevoegde registratie-instantie welke alternatieve procedure mogelijk is. Vraag eerst om een bevestiging van ons archiefonderzoek voordat u ervan uitgaat dat een kopie kan worden geleverd. Stuur de gegevens via ons contactformulier."
+          ]
+        }
+      ],
+      "relatedIds": [
+        23,
+        26,
+        45
+      ],
+      "cta": {
+        "type": "documenten",
+        "label": "Vraag een kopie van uw CoC aan"
+      },
+      "links": [
+        "contact"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 26,
+      "category": "rijbewijs-keuring-en-documenten",
+      "slug": "registratie-belgie-duitsland",
+      "question": "Kan ik mijn Airtrailer ook in België of Duitsland registreren?",
+      "title": "Airtrailer registreren in België of Duitsland | Airtrailer",
+      "description": "Lees welke documenten bij een nieuwe Airtrailer horen en waar u op let bij inschrijving of registratie in België en Duitsland.",
+      "lead": "Nieuwe Airtrailers beschikken over een Europese typegoedkeuring en worden geleverd met de bijbehorende documenten. De registratieprocedure verschilt per land. Informeer bij de betreffende nationale instantie naar de geldende voorwaarden.",
+      "sections": [
+        {
+          "heading": "Welke papieren krijgt u?",
+          "paragraphs": [
+            "Bij aanschaf van een nieuwe Airtrailer ontvangt u de bijbehorende Europese typegoedkeuringsdocumenten, waaronder het CoC. De gegevens op deze documenten moeten overeenkomen met de trailer die u koopt. Bewaar ze ook wanneer de trailer in Nederland geen afzonderlijk kenteken nodig heeft; in een ander land kan documentatie juist nodig zijn voor registratie."
+          ]
+        },
+        {
+          "heading": "De procedure verschilt per land",
+          "paragraphs": [
+            "Welke registratie, keuring, kentekenplaat of aanvullende documenten vereist zijn, hangt af van het land en de specifieke uitvoering. Vraag daarom bij de bevoegde nationale instantie welke regels voor uw situatie gelden. Vermeld bij uw bestelling dat de trailer in België of Duitsland gebruikt of geregistreerd zal worden. Zo kunnen wij tijdig nagaan welke beschikbare documenten bij de uitvoering horen. Heeft u een tweedehands exemplaar zonder papieren, dan is het verstandig vóór aanschaf te laten controleren of de benodigde documentatie beschikbaar is. Een CoC is geen automatische garantie dat iedere nationale registratieprocedure zonder aanvullende stappen kan worden afgerond."
+          ]
+        }
+      ],
+      "relatedIds": [
+        23,
+        25,
+        24
+      ],
+      "cta": {
+        "type": "documenten",
+        "label": "Vraag naar uw trailerpapieren"
+      },
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 27,
+      "category": "verhuur",
+      "slug": "motortrailer-huren",
+      "question": "Kan ik een Airtrailer huren?",
+      "title": "Airtrailer motortrailer huren in Kampen | Airtrailer",
+      "description": "Huur een luchtgeveerde Airtrailer voor één of twee motoren en ontdek hoe u beschikbaarheid en een persoonlijke huurprijs aanvraagt.",
+      "lead": "Ja. Zowel de Airtrailer Mono als de Duo is tijdens het motorseizoen te huur, afhankelijk van beschikbaarheid. Via onze website kunt u vrijblijvend een verhuuraanvraag indienen.",
+      "sections": [
+        {
+          "heading": "Welk model kunt u huren?",
+          "paragraphs": [
+            "De Mono is bedoeld voor één motor en de Duo voor maximaal twee motoren binnen de toegestane belading. Een motortrailer huren kan praktisch zijn voor een motorvakantie, een weekend weg of om de werking van de Airtrailer te ervaren voordat u tot aanschaf overgaat. Beide huurmodellen zijn ongeremd. Controleer vooraf of uw auto geschikt is voor de beladen trailer."
+          ]
+        },
+        {
+          "heading": "Hoe reserveert u een Airtrailer?",
+          "paragraphs": [
+            "Geef in de aanvraag het gewenste model en de exacte ophaal- en retourdatum door. Vermeld uw contactgegevens en eventuele bijzondere wensen, zoals een rit naar Duitsland. Wij controleren de beschikbaarheid en sturen de kosten voor de betreffende periode. Een aanvraag is nog geen definitieve reservering: stem de bevestiging met ons af. Bij het ophalen nemen wij de huurovereenkomst door. Houd bij het plannen rekening met het feit dat ophalen en terugbrengen op werkdagen plaatsvindt. De verhuurlocatie is in Kampen."
+          ]
+        }
+      ],
+      "relatedIds": [
+        28,
+        30,
+        33
+      ],
+      "cta": {
+        "type": "verhuur",
+        "label": "Dien een verhuuraanvraag in"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "index": false,
+      "primaryPage": "verhuur",
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 28,
+      "category": "verhuur",
+      "slug": "huurprijs-motortrailer",
+      "question": "Wat kost het huren van een Airtrailer?",
+      "title": "Wat kost een Airtrailer huren? | Airtrailer",
+      "description": "Lees hoe de huurprijs voor een Mono of Duo tot stand komt, welke periode u opgeeft en hoe de borg afzonderlijk wordt behandeld.",
+      "lead": "De huurprijs is afhankelijk van het model en het aantal verhuurdagen. Geef bij uw aanvraag aan welke Airtrailer u wilt huren en voor welke periode. Wij informeren u over beschikbaarheid en de totale huurprijs.",
+      "sections": [
+        {
+          "heading": "Hoe wordt de huurprijs bepaald?",
+          "paragraphs": [
+            "Het gekozen model en de reserveringsperiode zijn bepalend. Voor een kort weekend betaalt u een ander totaalbedrag dan voor een motorvakantie van enkele weken. Geef bij uw aanvraag de exacte begin- en einddatum op. Kies vervolgens de Mono voor één motor of de Duo voor twee motoren, als uw combinatie binnen de specificaties past."
+          ]
+        },
+        {
+          "heading": "Houd rekening met de volledige huurperiode",
+          "paragraphs": [
+            "Omdat u de trailer alleen op werkdagen kunt halen en terugbrengen, kan uw reserveringsperiode afwijken van het aantal dagen waarop u daadwerkelijk op reis bent. Bespreek daarom de gewenste tijden en data voordat u boekt. Naast de huurprijs wordt een borg gevraagd; dit is een afzonderlijk bedrag en geen onderdeel van de uiteindelijke huurkosten wanneer alles conform de overeenkomst wordt geretourneerd. Wij geven u vooraf een totaalprijs voor de aangevraagde periode en informeren u over betaling en borg. Zo weet u welke kosten u kunt verwachten voordat u definitief reserveert."
+          ]
+        }
+      ],
+      "relatedIds": [
+        29,
+        27,
+        31
+      ],
+      "cta": {
+        "type": "verhuur",
+        "label": "Vraag een huurprijs op voor uw periode"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "index": false,
+      "primaryPage": "verhuur",
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 29,
+      "category": "verhuur",
+      "slug": "borg-airtrailer-huren",
+      "question": "Hoeveel borg moet ik betalen bij het huren van een Airtrailer?",
+      "title": "Borg bij het huren van een Airtrailer | Airtrailer",
+      "description": "Lees hoeveel borg u bij het huren betaalt, hoe u deze voldoet en welke rol de huurovereenkomst heeft bij de terugbetaling.",
+      "lead": "Wij hanteren een borg van € 250. Deze dient bij het ophalen contant te worden voldaan. De borg wordt bij het correct retourneren terugbetaald conform de huurovereenkomst.",
+      "sections": [
+        {
+          "heading": "Wanneer betaalt u de borg?",
+          "paragraphs": [
+            "De borg wordt bij het ophalen van de huurtrailer voldaan. Neem dit bedrag contant mee, zoals afgesproken bij uw reservering. De huurprijs staat los van de borg. Neem vóór vertrek naar Kampen de betalingsafspraken door, zodat u niet voor verrassingen komt te staan bij de aflevering."
+          ]
+        },
+        {
+          "heading": "Wanneer krijgt u de borg terug?",
+          "paragraphs": [
+            "De huurovereenkomst bepaalt de voorwaarden voor terugbetaling. Controleer de trailer en de meegeleverde accessoires bij het ophalen samen met ons en meld eventuele bestaande beschadigingen. Bij terugkomst wordt beoordeeld of de trailer en toebehoren conform de overeenkomst zijn geretourneerd. Vermissing, schade of andere afwijkingen kunnen gevolgen hebben volgens de afgesproken huurvoorwaarden. Neem bij problemen tijdens de huurperiode contact met ons op in plaats van zelf ongeoorloofde aanpassingen te doen. Heeft u vragen over de borg of betaalwijze, bespreek deze voordat u de aanvraag omzet in een reservering."
+          ]
+        }
+      ],
+      "relatedIds": [
+        28,
+        30,
+        32
+      ],
+      "cta": {
+        "type": "verhuur",
+        "label": "Vraag de actuele huurvoorwaarden aan"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 30,
+      "category": "verhuur",
+      "slug": "inbegrepen-huuraccessoires",
+      "question": "Welke accessoires zijn inbegrepen bij het huren van een Airtrailer?",
+      "title": "Wat zit er bij een gehuurde Airtrailer inbegrepen? | Airtrailer",
+      "description": "Lees welke spanbanden, compressor en slot bij een huurtrailer worden geleverd en waarom u een reservewiel vooraf moet bespreken.",
+      "lead": "Onze huurtrailers worden geleverd met compressor, spanbanden en slot. Bij de Duo krijgt u een extra set spanbanden voor de tweede motorfiets. Een reservewiel is niet standaard inbegrepen.",
+      "sections": [
+        {
+          "heading": "Uitrusting voor één of twee motoren",
+          "paragraphs": [
+            "Bij een huurtrailer ontvangt u de compressor voor de luchtvering, spanbanden en een slot. Voor de Duo is er een extra set spanbanden voor de tweede motor. Deze uitrusting is bedoeld om de trailer volgens de bijbehorende instructies te kunnen gebruiken. Controleer bij het ophalen of u weet hoe de compressor werkt en welke bevestigingspunten en spanbanden u moet gebruiken."
+          ]
+        },
+        {
+          "heading": "Wat neemt u zelf mee of vraagt u vooraf aan?",
+          "paragraphs": [
+            "Een reservewiel is niet standaard bij de huur inbegrepen. Heeft u vanwege een lange reis behoefte aan specifieke extra's, bespreek dan vóór uw reservering of deze beschikbaar zijn. Controleer ook of uw auto geschikt is voor het ongeremde gewicht en de aansluiting van de trailer. Gaat u naar het buitenland, controleer dan de benodigde documenten en eventuele Tempo-100 toelating. Neem alle meegeleverde accessoires bij terugkomst weer mee naar de verhuurlocatie; de afspraken hierover staan in de huurovereenkomst."
+          ]
+        }
+      ],
+      "relatedIds": [
+        27,
+        29,
+        34
+      ],
+      "cta": {
+        "type": "verhuur",
+        "label": "Informeer naar uw huuruitrusting"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 31,
+      "category": "verhuur",
+      "slug": "huurtrailer-weekend-ophalen",
+      "question": "Kan ik een Airtrailer in het weekend ophalen of terugbrengen?",
+      "title": "Airtrailer huren voor het weekend: ophalen en terugbrengen | Airtrailer",
+      "description": "Plan uw weekendhuur met de werkdaggebonden ophaal- en retourmogelijkheden van Airtrailer in Kampen.",
+      "lead": "Nee. Het ophalen en terugbrengen van huurtrailers is uitsluitend mogelijk op werkdagen, tijdens onze openingstijden. Houd hier rekening mee bij uw planning.",
+      "sections": [
+        {
+          "heading": "Plan uw weekend vooraf",
+          "paragraphs": [
+            "Wie bijvoorbeeld op zaterdag met de motor op vakantie vertrekt en op zondag terugkeert, kan de huurtrailer niet op die weekenddagen bij ons ophalen of terugbrengen. Stem daarom vooraf af welke werkdag geschikt is voor het ophalen en op welke werkdag u de trailer terugbrengt. De beschikbaarheid wordt beoordeeld over de volledige afgesproken periode."
+          ]
+        },
+        {
+          "heading": "Welke data geeft u op?",
+          "paragraphs": [
+            "Vermeld bij uw verhuuraanvraag niet alleen de dagen waarop u de trailer onderweg gebruikt, maar ook de gewenste ophaal- en retourdatum. Wij kunnen dan de juiste periode en totaalprijs bepalen. Houd ook rekening met de reistijd naar Kampen en eventuele feestdagen of afwijkende openingstijden. Heeft u onverwacht vertraging op de terugreis, neem dan tijdig contact met ons op om de situatie te bespreken. De huurafspraken zijn vastgelegd in de bevestiging en huurovereenkomst; ga niet zonder overleg uit van een andere retourdatum."
+          ]
+        }
+      ],
+      "relatedIds": [
+        28,
+        32,
+        47
+      ],
+      "cta": {
+        "type": "verhuur",
+        "label": "Stem uw huurdata af"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 32,
+      "category": "verhuur",
+      "slug": "huurtrailer-ophalen-kampen",
+      "question": "Waar kan ik mijn gehuurde Airtrailer ophalen?",
+      "title": "Waar haalt u uw gehuurde Airtrailer op? | Airtrailer",
+      "description": "Vind de verhuurlocatie van Airtrailer in Kampen en lees wat u voorbereidt voordat u uw gehuurde motortrailer ophaalt.",
+      "lead": "Onze huurtrailers zijn uitsluitend op te halen bij onze locatie aan de Betonstraat 25, 8263 BL Kampen.",
+      "sections": [
+        {
+          "heading": "Ophaallocatie",
+          "paragraphs": [
+            "U haalt uw gereserveerde Airtrailer op aan de Betonstraat 25, 8263 BL Kampen. Wij verhuren vanuit deze locatie; er is niet standaard een andere afhaallocatie. Stem de ophaaltijd tijdens de werkweek met ons af en houd rekening met de rit naar Kampen wanneer u uw vakantie plant."
+          ]
+        },
+        {
+          "heading": "Wat regelt u voor het ophalen?",
+          "paragraphs": [
+            "Zorg dat uw reservering is bevestigd en dat het trekkende voertuig geschikt is voor de huurtrailer en de lading die u meeneemt. Neem de afgesproken betaling en contante borg mee. Bij het ophalen nemen wij de huurovereenkomst en de meegeleverde uitrusting door. Als u nog niet eerder een Airtrailer heeft gebruikt, geef dit dan aan, zodat u vragen kunt stellen over de werking. De afgesproken retourdatum is eveneens belangrijk: u brengt de trailer terug op een werkdag, op dezelfde locatie, tenzij hierover uitdrukkelijk andere afspraken zijn gemaakt."
+          ]
+        }
+      ],
+      "relatedIds": [
+        31,
+        29,
+        46
+      ],
+      "cta": {
+        "type": "bezoek",
+        "label": "Bekijk de contact- en routegegevens"
+      },
+      "links": [
+        "verhuur",
+        "contact"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 33,
+      "category": "verhuur",
+      "slug": "verhuurseizoen-airtrailer",
+      "question": "Kan ik gedurende het hele jaar een Airtrailer huren?",
+      "title": "Wanneer kunt u een Airtrailer huren? | Airtrailer",
+      "description": "Lees waarom de Airtrailer voornamelijk tijdens het motorseizoen te huur is en hoe u beschikbaarheid buiten het seizoen controleert.",
+      "lead": "Wij verhuren voornamelijk tijdens het motorseizoen. Aan het einde van het seizoen verkopen wij doorgaans de verhuurmodellen en bereiden wij een nieuwe verhuurvloot voor.",
+      "sections": [
+        {
+          "heading": "Verhuur tijdens het motorseizoen",
+          "paragraphs": [
+            "De vraag naar huurtrailers is sterk verbonden met het motorseizoen en vakantieperiodes. Aan het einde van het seizoen verkopen wij doorgaans onze gebruikte huurtrailers. Voor het volgende seizoen wordt de verhuurvloot opnieuw voorbereid. Daardoor kan er in de winter of aan het begin van het voorjaar minder of geen aanbod zijn."
+          ]
+        },
+        {
+          "heading": "Reserveer op basis van uw reisdata",
+          "paragraphs": [
+            "Wilt u in het vroege voorjaar, het najaar of buiten de gebruikelijke verhuurperiode een trailer meenemen, stuur dan een aanvraag met uw exacte data. Wij kunnen aangeven of er een Mono of Duo beschikbaar is. Ga niet uit van een vaste startmaand of gegarandeerde beschikbaarheid: deze kan per seizoen en per model verschillen. Voor populaire vakantieperiodes is een tijdige aanvraag verstandig. Als u juist geïnteresseerd bent in de aanschaf van een gebruikt verhuurmodel, informeer dan naar het verkoopmoment aan het einde van het seizoen. Een verhuurbevestiging geldt uitsluitend voor de afgesproken periode."
+          ]
+        }
+      ],
+      "relatedIds": [
+        27,
+        14,
+        28
+      ],
+      "cta": {
+        "type": "verhuur",
+        "label": "Vraag beschikbaarheid aan"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 34,
+      "category": "verhuur",
+      "slug": "huurtrailer-tempo-100",
+      "question": "Hebben de huurtrailers een Duitse Tempo-100 toelating?",
+      "title": "Met een gehuurde Airtrailer naar Duitsland: Tempo-100 | Airtrailer",
+      "description": "Controleer voordat u huurt of de trailer een officiële Duitse Tempo-100 toelating heeft en of uw trekauto aan de voorwaarden voldoet.",
+      "lead": "Onze huurtrailers worden niet standaard geleverd met een Duitse Tempo-100 toelating. Informeer vooraf naar de mogelijkheden als u naar Duitsland wilt reizen.",
+      "sections": [
+        {
+          "heading": "Controleer de status van de huurtrailer",
+          "paragraphs": [
+            "Onze huurtrailers worden niet standaard met een Duitse Tempo-100 toelating aangeboden. Wanneer u specifiek sneller wilt mogen rijden op daarvoor geschikte Duitse wegen, moet u dit vóór de reservering bespreken. De Europese typegoedkeuring van een trailer is niet hetzelfde als de aanvullende officiële Tempo-100 toelating."
+          ]
+        },
+        {
+          "heading": "Ook uw trekauto telt mee",
+          "paragraphs": [
+            "De voorwaarden betreffen niet uitsluitend de trailer. Onder meer de gewichtsverhouding met de trekauto en de overige wettelijke eisen zijn relevant. Geef daarom bij uw verhuuraanvraag aan welk model u wilt huren, welke auto u gebruikt en of u naar Duitsland rijdt. Vraag uitdrukkelijk welke documenten en toelating bij het specifieke huurexemplaar beschikbaar zijn. Als de voorwaarden of documenten niet aantoonbaar in orde zijn, houdt u zich aan de gewone toepasselijke snelheidslimieten. Neem geen sticker of verklaring als voldoende bewijs zonder te weten wat de officiële status van de combinatie is."
+          ]
+        }
+      ],
+      "relatedIds": [
+        24,
+        27,
+        30
+      ],
+      "cta": {
+        "type": "verhuur",
+        "label": "Bespreek uw reis naar Duitsland"
+      },
+      "links": [
+        "verhuur"
+      ],
+      "externalLinks": [
+        {
+          "label": "DEKRA: Tempo-100",
+          "href": "https://shop.dekra.nl/diensten/tempo-100/"
+        }
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 35,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "reserveonderdelen-airtrailer",
+      "question": "Kan ik losse onderdelen voor mijn Airtrailer bestellen?",
+      "title": "Airtrailer-onderdelen bestellen: zo vindt u het juiste onderdeel | Airtrailer",
+      "description": "Bestel passende Airtrailer-onderdelen zoals achterlichten, spatborden, steunwielen of velgen. Lees welke foto's en gegevens wij nodig hebben.",
+      "lead": "Ja. Wij leveren diverse reserveonderdelen, waaronder achterlichten, spatborden, wielen, bevestigingsbeugels en steunwielen. Stuur een foto van de trailer en het onderdeel, en zo mogelijk het bouwjaar en chassisnummer, zodat wij het juiste onderdeel kunnen bepalen.",
+      "sections": [
+        {
+          "heading": "Welk onderdeel heeft u nodig?",
+          "paragraphs": [
+            "Veel voorkomende onderdelen zijn achterlichten en bijbehorende houders, spatborden, wielen, een steunwiel of een bevestigingsbeugel. Niet alle Airtrailers gebruiken dezelfde onderdelen. Een ander bouwjaar kan bijvoorbeeld betekenen dat de wielmaat of de montage van een achterlicht verschilt. Bestel daarom niet uitsluitend aan de hand van een algemene afbeelding of een maat die u zelf heeft gemeten."
+          ]
+        },
+        {
+          "heading": "Zo helpt u ons het onderdeel te identificeren",
+          "paragraphs": [
+            "Stuur een foto van de complete trailer, een detailfoto van het gewenste onderdeel en zo mogelijk de typeplaat of het chassisnummer. Vermeld het bouwjaar en eventuele maten of markeringen op het onderdeel. Geef aan of u het onderdeel wilt laten opsturen of in Kampen wilt laten monteren. Wij controleren vervolgens of het onderdeel beschikbaar is en welke prijs, verzendkosten en eventuele montage van toepassing zijn. Heeft u een Van Vossen-trailer? Dan geldt een andere situatie, omdat wij geen specifieke Van Vossen-onderdelen leveren."
+          ]
+        }
+      ],
+      "relatedIds": [
+        36,
+        37,
+        44
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Stuur een onderdelenaanvraag"
+      },
+      "links": [
+        "contact"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 36,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "onderdelen-oudere-airtrailer",
+      "question": "Leveren jullie ook onderdelen voor oudere Airtrailers?",
+      "title": "Zijn onderdelen voor oudere Airtrailers nog verkrijgbaar? | Airtrailer",
+      "description": "Lees waarom onderdelen per generatie verschillen en hoe wij de beschikbaarheid voor oudere Airtrailers beoordelen.",
+      "lead": "Voor diverse oudere modellen hebben wij nog onderdelen beschikbaar. Sommige worden echter niet meer geproduceerd of zijn moeilijk verkrijgbaar. Stuur ons een foto van uw trailer en het gewenste onderdeel, zodat wij de mogelijkheden kunnen onderzoeken.",
+      "sections": [
+        {
+          "heading": "Verschillende generaties en onderdelen",
+          "paragraphs": [
+            "Door de jaren heen is de Airtrailer verder ontwikkeld. Sommige oudere uitvoeringen hebben een ander frame, andere wielen of andere verlichting dan recente modellen. Een onderdeel van een nieuw model past daarom niet automatisch op uw oudere trailer. Voor bepaalde vroegere uitvoeringen hebben wij nog onderdelen; andere zijn niet meer in productie of lastig te verkrijgen."
+          ]
+        },
+        {
+          "heading": "Reparatie of vervanging beoordelen",
+          "paragraphs": [
+            "Stuur foto's van de trailer, het betreffende onderdeel en de typeplaat. Bij wielen helpt het wanneer u ook de huidige velg- en bandenmaat doorgeeft. Soms is onderzoek nodig naar een passende vervangende uitvoering of een aanpassing; wij kunnen niet voor elk ouder model garanderen dat dit mogelijk is. Laat technische onderdelen zoals assen en wielbevestigingen altijd beoordelen op geschiktheid. Als een onderdeel niet meer leverbaar is, geven wij aan of wij een passend alternatief kunnen onderzoeken. Controleer ook het merk: een Van Vossen-trailer is geen Airtrailer, ook al lijkt het luchtveringsconcept erop."
+          ]
+        }
+      ],
+      "relatedIds": [
+        35,
+        38,
+        43
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Laat uw oudere trailer identificeren"
+      },
+      "links": [
+        "contact"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 37,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "onderhoud-reparatie-airtrailer",
+      "question": "Kunnen jullie mijn Airtrailer onderhouden of repareren?",
+      "title": "Airtrailer onderhoud en reparatie in Kampen | Airtrailer",
+      "description": "Lees hoe u een inspectie of reparatie van uw motortrailer bij de Airtrailer-werkplaats voorbereidt en welke informatie daarbij helpt.",
+      "lead": "Ja. In onze werkplaats in Kampen kunnen wij uw Airtrailer inspecteren en repareren. Neem vooraf contact met ons op om de werkzaamheden in te plannen.",
+      "sections": [
+        {
+          "heading": "Welke problemen kunnen wij onderzoeken?",
+          "paragraphs": [
+            "In onze werkplaats kunnen wij onder meer de werking van de luchtvering en as beoordelen, wielen en banden controleren, verlichting inspecteren en passende onderdelen vervangen. Bij oudere modellen is het belangrijk eerst vast te stellen welke constructie en onderdelen zijn toegepast. Daarom beginnen wij bij technische klachten met een beoordeling van het probleem."
+          ]
+        },
+        {
+          "heading": "Beschrijf de klacht vooraf",
+          "paragraphs": [
+            "Vermeld wanneer de klacht optreedt, bijvoorbeeld bij het laden of tijdens het rijden, en stuur foto's of een korte video als die veilig gemaakt kan worden. Geef het bouwjaar, model en chassisnummer door. Wij kunnen dan inschatten of een werkplaatsbezoek nodig is en welke onderdelen mogelijk voorbereid moeten worden. De definitieve reparatiekosten hangen af van de oorzaak, onderdelen en benodigde werkzaamheden. Rijd niet verder wanneer de trailer mogelijk onveilig is; overleg dan eerst hoe u deze veilig kunt laten vervoeren. Maak vooraf een afspraak zodat wij de benodigde tijd in de werkplaats kunnen reserveren."
+          ]
+        }
+      ],
+      "relatedIds": [
+        38,
+        39,
+        35
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Maak een werkplaatsafspraak"
+      },
+      "links": [
+        "dealers"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 38,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "airtrailer-as-zit-vast",
+      "question": "Mijn Airtrailer gaat niet meer goed omhoog of omlaag. Wat kan de oorzaak zijn?",
+      "title": "Airtrailer gaat niet omhoog of omlaag: vastzittende as | Airtrailer",
+      "description": "Lees waarom de as van een oudere Airtrailer kan vastlopen, hoe wij de oorzaak onderzoeken en welke reparatie mogelijk is.",
+      "lead": "Bij oudere Airtrailers met een stalen as kan langdurige stilstand leiden tot roestvorming en een vastzittende as. Wij kunnen de trailer inspecteren en indien nodig de as vervangen. Forceer de werking niet wanneer de trailer geblokkeerd is.",
+      "sections": [
+        {
+          "heading": "Hoe kan een as vast komen te zitten?",
+          "paragraphs": [
+            "Bij oudere Airtrailers met een stalen as kan roestvorming ontstaan, met name wanneer de trailer langere tijd niet gebruikt wordt. De onderdelen kunnen daardoor steeds minder soepel bewegen, totdat de laadvloer niet meer goed omhoog of omlaag gaat. Niet iedere blokkade wordt door roest veroorzaakt; er kan ook een ander probleem met de luchtvering of constructie zijn."
+          ]
+        },
+        {
+          "heading": "Wat kan de werkplaats doen?",
+          "paragraphs": [
+            "Wij inspecteren eerst de as en stellen vast of deze de oorzaak van de klacht is. Als de as daadwerkelijk door roest is vastgelopen, kan machinaal herstel en vervanging van de as nodig zijn. Bij eerdere reparaties aan dit type trailer was de trailer ongeveer twee tot drie dagen in Kampen nodig, omdat ook spuitwerk aan de orde kon zijn. De benodigde tijd en kosten verschillen per situatie. Forceer een geblokkeerde laadvloer niet en gebruik de trailer niet als deze niet veilig in transportstand kan worden geborgd. Stuur ons foto's van uw model en beschrijf het gedrag bij het omhoog- en omlaagbrengen."
+          ]
+        }
+      ],
+      "relatedIds": [
+        37,
+        42,
+        40
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Laat de as inspecteren"
+      },
+      "links": [
+        "werking"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 39,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "airtrailer-trilt-tijdens-rijden",
+      "question": "Mijn Airtrailer trilt tijdens het rijden. Wat moet ik doen?",
+      "title": "Airtrailer trilt tijdens het rijden: oorzaken en controle | Airtrailer",
+      "description": "Lees waarom trillingen bij een motortrailer serieus genomen moeten worden en hoe Airtrailer de wielen en trailer kan controleren.",
+      "lead": "Trillingen kunnen onder meer ontstaan door onbalans in de wielen, een afwijking in de banden of beschadigde velgen. Doorrijden kan schade veroorzaken. Laat de oorzaak controleren voordat u verder rijdt. In onze werkplaats kunnen wij wielen en banden controleren en zo nodig balanceren.",
+      "sections": [
+        {
+          "heading": "Mogelijke oorzaken van trillingen",
+          "paragraphs": [
+            "Een trilling kan ontstaan door onbalans in een wiel, hoogteslag in een band of velg, beschadiging of een ander technisch probleem. Ook de belading en gewichtsverdeling kunnen invloed hebben op het rijgedrag. Alleen op afstand kunnen wij meestal niet vaststellen wat de exacte oorzaak is. Het is daarom belangrijk niet op basis van één mogelijke verklaring onderdelen te vervangen zonder verdere controle."
+          ]
+        },
+        {
+          "heading": "Laat de trailer controleren",
+          "paragraphs": [
+            "Langdurige trillingen kunnen onderdelen extra belasten. Breng de combinatie veilig tot stilstand wanneer er ongebruikelijke trillingen optreden en laat beoordelen of verder rijden verantwoord is. In onze werkplaats kunnen wij onder andere wielen en banden controleren en zo nodig balanceren. Beschrijf bij uw aanvraag bij welke snelheid de trilling optreedt, of de trailer beladen was en of er recent banden of onderdelen zijn gewisseld. Vermeld ook de wielmaat en stuur foto's van de banden. Gebruik geen hogere bandenspanning als willekeurige oplossing; de voorgeschreven waarde voor uw specifieke uitvoering blijft leidend."
+          ]
+        }
+      ],
+      "relatedIds": [
+        41,
+        37,
+        38
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Vraag een technische inspectie aan"
+      },
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 40,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "onderhoud-luchtbalg",
+      "question": "Heeft de luchtbalg onderhoud nodig?",
+      "title": "Onderhoud van de luchtbalg van een Airtrailer | Airtrailer",
+      "description": "Lees hoe u de onderhoudsvrije luchtbalg visueel controleert en waarom chemicaliën en agressieve reinigingsmiddelen niet geschikt zijn.",
+      "lead": "De luchtbalg is in beginsel onderhoudsvrij. Gebruik geen agressieve reinigingsmiddelen of chemicaliën die het rubber kunnen aantasten. Controleer de luchtbalg regelmatig op zichtbare beschadigingen en uitdroging.",
+      "sections": [
+        {
+          "heading": "Onderhoudsvrij betekent niet controleloos",
+          "paragraphs": [
+            "De luchtbalg van de Airtrailer is in beginsel onderhoudsvrij. Dat betekent dat u deze niet routinematig met een onderhoudsmiddel hoeft te behandelen. Vermijd chemicaliën en agressieve reinigingsmiddelen die het rubber kunnen aantasten. Controleer de balg geregeld op zichtbare beschadigingen en neem veranderingen in de werking serieus."
+          ]
+        },
+        {
+          "heading": "Wanneer vraagt u technisch advies?",
+          "paragraphs": [
+            "Als de laadvloer niet op hoogte blijft, de luchtbalg beschadigd lijkt of het systeem zich anders gedraagt dan normaal, neem dan contact met ons op. Een probleem met het zakken of omhoogkomen kan ook ontstaan door een vastzittende as bij een oudere Airtrailer en hoeft dus niet direct een defecte balg te betekenen. Laat de exacte oorzaak beoordelen voordat u onderdelen bestelt of werkzaamheden uitvoert. Werk nooit onder een onvoldoende ondersteunde laadvloer. Geef bij een serviceaanvraag het model en bouwjaar door en voeg een foto toe die veilig van buitenaf is gemaakt. Wij onderzoeken welke oplossing geschikt is voor uw uitvoering."
+          ]
+        }
+      ],
+      "relatedIds": [
+        42,
+        38,
+        37
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Vraag advies over uw luchtvering"
+      },
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 41,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "bandenspanning-airtrailer",
+      "question": "Welke bandenspanning moet ik aanhouden?",
+      "title": "Welke bandenspanning heeft uw Airtrailer nodig? | Airtrailer",
+      "description": "Lees waarom u de voorgeschreven bandenspanning voor uw specifieke Airtrailer, banden en generatie moet raadplegen.",
+      "lead": "Raadpleeg altijd de gebruiksinstructie voor uw specifieke Airtrailer en gemonteerde banden. Neem bij twijfel contact met ons op voor de juiste voorgeschreven bandenspanning.",
+      "sections": [
+        {
+          "heading": "Bandenspanning is iets anders dan luchtdruk in de balg",
+          "paragraphs": [
+            "De banden hebben een voorgeschreven bandenspanning die hoort bij het betreffende model en de gebruikte wielen. De luchtbalg dient voor het omhoog- en omlaagbrengen van de laadvloer. De waarden voor het ene systeem mogen niet met die van het andere worden verward. Door de jaren heen zijn verschillende wielmaten en uitvoeringen gebruikt; oude instructies zijn niet zonder meer geschikt voor een nieuwere trailer."
+          ]
+        },
+        {
+          "heading": "Welke waarde geldt voor uw trailer?",
+          "paragraphs": [
+            "Gebruik de actuele handleiding voor uw uitvoering en controleer of de gemonteerde banden overeenkomen met de voorgeschreven specificatie. Controleer de spanning bij koude banden en let ook op zichtbare beschadigingen en slijtage. Een afwijkende spanning kan het rijgedrag beïnvloeden. Neem bij twijfel over de juiste waarde contact met ons op met uw chassisnummer, bouwjaar en bandenmaat. Wij helpen u de toepasselijke instructie te vinden. Gebruik geen willekeurige waarde uit een forum of een handleiding van een andere generatie."
+          ]
+        }
+      ],
+      "relatedIds": [
+        39,
+        42,
+        36
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Vraag de juiste gebruiksinstructie aan"
+      },
+      "links": [
+        "werking"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 42,
+      "category": "onderhoud-service-en-onderdelen",
+      "slug": "luchtdruk-luchtbalg",
+      "question": "Hoeveel lucht moet er in de luchtbalg?",
+      "title": "Hoeveel luchtdruk moet er in de Airtrailer-luchtbalg? | Airtrailer",
+      "description": "Lees waarom de luchtdruk in de balg afhankelijk is van de laadvloerpositie en belading en waarom de gebruiksinstructies leidend zijn.",
+      "lead": "De benodigde luchtdruk hangt af van de belading. Er is geen universele druk voor iedere situatie. Volg bij het omhoog- en omlaagbrengen altijd de gebruiksinstructies, inclusief de aanwijzingen voor de veiligheidspen.",
+      "sections": [
+        {
+          "heading": "Geen universeel aantal bar",
+          "paragraphs": [
+            "De luchtbalg verandert de positie van de laadvloer. De benodigde druk hangt samen met de belading en de uitvoering van de trailer. De druk in de luchtbalg is dus geen vaste bandenspanningswaarde. Gebruik de voorgeschreven procedure en respecteer de technische grenzen van het systeem, in plaats van te streven naar een willekeurig drukgetal."
+          ]
+        },
+        {
+          "heading": "Gebruik de borging volgens de handleiding",
+          "paragraphs": [
+            "Bij het bedienen van de luchtvering is de veiligheidspen een belangrijk onderdeel. Volg voor het ontgrendelen, omhoog- en omlaagbrengen en opnieuw borgen de modelgebonden instructies. Vertrek pas wanneer de trailer zich veilig in de juiste transportstand bevindt. Als de laadvloer niet goed beweegt of de hoogte niet behouden blijft, forceer de bediening dan niet en laat de oorzaak onderzoeken. Heeft u een gebruikte Airtrailer gekocht zonder handleiding of bent u niet zeker welke instructie voor uw versie geldt? Stuur ons een foto en het chassisnummer. Wij helpen u graag met de juiste informatie."
+          ]
+        }
+      ],
+      "relatedIds": [
+        41,
+        40,
+        2
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Vraag de handleiding voor uw Airtrailer aan"
+      },
+      "links": [
+        "werking"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 43,
+      "category": "van-vossen",
+      "slug": "van-vossen-of-airtrailer",
+      "question": "Is een Van Vossen-trailer hetzelfde als een Airtrailer?",
+      "title": "Van Vossen of Airtrailer: wat is het verschil? | Airtrailer",
+      "description": "Ontdek het verschil tussen een oorspronkelijke Van Vossen-trailer en een Airtrailer, vooral voor onderdelen, onderhoud en documenten.",
+      "lead": "Nee. Beide trailers gebruiken een vergelijkbaar concept met luchtvering, maar het zijn verschillende fabrikanten en constructies. Na het verdwijnen van Van Vossen is het concept verder ontwikkeld tot een eigen product: de Airtrailer.",
+      "sections": [
+        {
+          "heading": "Een vergelijkbaar idee, maar een andere trailer",
+          "paragraphs": [
+            "Beide motortrailers hebben een vergelijkbaar principe waarbij luchtvering wordt gebruikt om de laadvloer te laten zakken. De Airtrailer is echter een eigen product met een andere constructie en fabrikant. Het bedrijf achter Van Vossen verdween en het idee van het luchtgeveerde concept is later verder ontwikkeld. Dat betekent niet dat de oorspronkelijke trailers of alle onderdelen door Airtrailer zijn overgenomen."
+          ]
+        },
+        {
+          "heading": "Waarom is dit onderscheid belangrijk?",
+          "paragraphs": [
+            "Wie een gebruikte trailer koopt, gaat soms af op het uiterlijk of de omschrijving van een verkoper. Controleer echter de merknaam en typeplaat voordat u onderdelen of documenten aanvraagt. Bij een Van Vossen-trailer kunnen onderdelen andere maten en bevestigingen hebben. Airtrailer levert geen specifieke onderdelen of fabrikantdocumenten voor Van Vossen. Bent u niet zeker welk merk u bezit? Stuur ons foto's van de complete trailer en typeplaat. Wij kunnen helpen het onderscheid te maken zodat u weet bij welke fabrikant of specialist u verder moet zoeken."
+          ]
+        }
+      ],
+      "relatedIds": [
+        44,
+        45,
+        36
+      ],
+      "cta": {
+        "type": "service",
+        "label": "Laat uw trailer identificeren"
+      },
+      "links": [
+        "over-ons"
+      ],
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 44,
+      "category": "van-vossen",
+      "slug": "van-vossen-onderdelen-luchtbalg",
+      "question": "Leveren jullie onderdelen voor Van Vossen-trailers?",
+      "title": "Van Vossen-onderdelen en luchtbalgen: kan Airtrailer helpen? | Airtrailer",
+      "description": "Airtrailer levert geen specifieke Van Vossen-onderdelen. Lees waarom en hoe u de identificatie van uw gezochte onderdeel voorbereidt.",
+      "lead": "Nee. Wij leveren geen specifieke reserveonderdelen voor Van Vossen-trailers, waaronder luchtbalgen. De onderdelen van beide merken zijn niet zonder meer uitwisselbaar.",
+      "sections": [
+        {
+          "heading": "Waarom zijn Airtrailer-onderdelen niet automatisch geschikt?",
+          "paragraphs": [
+            "De oorspronkelijke Van Vossen-trailer is door een andere fabrikant geproduceerd. Hoewel het luchtveringsconcept overeenkomsten vertoont, kunnen constructie, aansluitingen en maatvoering verschillen. Wij hebben geen assortiment met specifieke Van Vossen-luchtbalgen of andere reserveonderdelen voor dit merk. We kunnen dan ook niet toezeggen dat een onderdeel van een Airtrailer veilig op een Van Vossen past."
+          ]
+        },
+        {
+          "heading": "Wat kunt u wel doen?",
+          "paragraphs": [
+            "Zoek de merk- en typeaanduiding op het onderdeel en de typeplaat van de trailer. Maak duidelijke foto's en noteer maten en eventuele leverancierscodes. Met die informatie kunt u gericht informeren bij een specialist in aanhangeronderdelen of luchtveringssystemen. Laat een vervangend onderdeel technisch beoordelen op de juiste toepassing en belastbaarheid. Gaat het toch om een echte Airtrailer, dan kunnen wij op basis van foto's en het chassisnummer nagaan welke onderdelen nog beschikbaar zijn. Het onderscheid tussen de twee merken voorkomt dat u een verkeerd onderdeel bestelt."
+          ]
+        }
+      ],
+      "relatedIds": [
+        43,
+        45,
+        35
+      ],
+      "cta": {
+        "type": "vanvossen",
+        "label": "Controleer eerst het merk van uw trailer"
+      },
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 45,
+      "category": "van-vossen",
+      "slug": "van-vossen-coc-document",
+      "question": "Kunnen jullie een CoC-document voor mijn Van Vossen-trailer leveren?",
+      "title": "CoC-document voor een Van Vossen-trailer aanvragen? | Airtrailer",
+      "description": "Lees waarom Airtrailer geen conformiteitsverklaring voor een Van Vossen-trailer kan afgeven en waar u voor registratievragen terechtkunt.",
+      "lead": "Nee. Wij zijn niet de oorspronkelijke fabrikant van deze trailers en kunnen hiervoor geen CoC-document verstrekken.",
+      "sections": [
+        {
+          "heading": "Waarom kunnen wij geen document afgeven?",
+          "paragraphs": [
+            "Een conformiteitsverklaring heeft betrekking op een specifieke voertuiguitvoering en de fabrikant die daarvoor verantwoordelijk is. Airtrailer is niet de oorspronkelijke fabrikant van Van Vossen-trailers en beschikt niet over de bijbehorende fabrikantdocumentatie om zo'n CoC te verzorgen. Bij oudere trailers kan de oorspronkelijke documentatie bovendien anders zijn dan bij recente Europees typegoedgekeurde modellen."
+          ]
+        },
+        {
+          "heading": "Wat als u de trailer moet registreren?",
+          "paragraphs": [
+            "Verzamel het chassisnummer, de typeplaat, het bouwjaar en eventueel bestaande oude papieren. Neem met deze gegevens contact op met de bevoegde registratie-instantie in het land waar u de trailer wilt registreren. Die kan aangeven welke procedure mogelijk is voor een oudere trailer zonder CoC. Controleer dit bij voorkeur voordat u een gebruikte trailer aanschaft of naar het buitenland exporteert. Is de trailer bij nader inzien een Airtrailer, dan kunnen wij in ons eigen archief onderzoeken welke gegevens nog beschikbaar zijn; ook daarbij kunnen wij niet voor elk bouwjaar een duplicaat garanderen."
+          ]
+        }
+      ],
+      "relatedIds": [
+        43,
+        25,
+        26
+      ],
+      "cta": {
+        "type": "vanvossen",
+        "label": "Bekijk de uitleg over traileridentificatie"
+      },
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 46,
+      "category": "contact-en-bezoek",
+      "slug": "airtrailer-locatie-kampen",
+      "question": "Waar zijn jullie gevestigd?",
+      "title": "Waar vindt u Airtrailer in Kampen? | Airtrailer",
+      "description": "Vind het adres van Airtrailer in Kampen voor een demonstratie, het ophalen van een motortrailer of een afspraak in de werkplaats.",
+      "lead": "Airtrailer is gevestigd aan de Betonstraat 25, 8263 BL Kampen, Nederland.",
+      "intro": [
+        "Op deze locatie kunt u terecht voor het ophalen van een bestelde of gehuurde motortrailer, een demonstratie en een vooraf ingeplande serviceafspraak. Wilt u een specifieke Mono of Duo bekijken, informeer dan vooraf of de gewenste uitvoering aanwezig is."
+      ],
+      "sections": [
+        {
+          "heading": "Een bezoek voorbereiden",
+          "paragraphs": [
+            "Wij zijn op werkdagen geopend. Neem voor een uitgebreid aankoopadvies of technische werkzaamheden bij voorkeur vooraf contact met ons op. Als u een trailer komt ophalen, controleer dan de afspraak, de benodigde gegevens en de geschiktheid van het trekkende voertuig. Voor onderdelen kunt u een foto en chassisnummer vooraf sturen, zodat wij gericht kunnen beoordelen wat u nodig heeft. Bel ons gerust als u vragen heeft over uw bezoek."
+          ]
+        }
+      ],
+      "relatedIds": [
+        47,
+        10,
+        32
+      ],
+      "cta": {
+        "type": "bezoek",
+        "label": "Bekijk de route naar Airtrailer"
+      },
+      "links": [
+        "contact",
+        "dealers"
+      ],
+      "index": false,
+      "primaryPage": "contact",
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 47,
+      "category": "contact-en-bezoek",
+      "slug": "openingstijden-airtrailer",
+      "question": "Wat zijn jullie openingstijden?",
+      "title": "Openingstijden Airtrailer Kampen | Airtrailer",
+      "description": "Bekijk de openingstijden van Airtrailer en lees wanneer u een motortrailer kunt ophalen of een afspraak voor service kunt plannen.",
+      "lead": "Wij zijn op werkdagen geopend van 08.00 tot 16.30 uur. In het weekend zijn wij gesloten. Neem voor een demonstratie, technisch advies of reparatie bij voorkeur vooraf contact met ons op.",
+      "sections": [
+        {
+          "heading": "Een specialist spreken of een trailer ophalen",
+          "paragraphs": [
+            "Wilt u een demonstratie of een technische vraag bespreken, neem dan bij voorkeur vooraf contact op. Zo kunnen wij rekening houden met de aanwezigheid van een specialist en de beschikbaarheid van de gewenste trailer. Voor reparaties is het belangrijk om de werkzaamheden in te plannen. Ook huurtrailers worden op werkdagen opgehaald en teruggebracht; stem de data en tijden af bij uw reservering. U vindt ons aan de Betonstraat 25 in Kampen."
+          ]
+        }
+      ],
+      "relatedIds": [
+        46,
+        31,
+        48
+      ],
+      "cta": {
+        "type": "bezoek",
+        "label": "Neem contact op voor een afspraak"
+      },
+      "links": [
+        "contact"
+      ],
+      "index": false,
+      "primaryPage": "contact",
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    },
+    {
+      "id": 48,
+      "category": "contact-en-bezoek",
+      "slug": "contact-airtrailer",
+      "question": "Hoe kan ik contact opnemen met Airtrailer?",
+      "title": "Contact opnemen met Airtrailer | Airtrailer",
+      "description": "Neem contact op met Airtrailer voor aankoopadvies, huur, reserveonderdelen, CoC-documenten en werkplaatsafspraken in Kampen.",
+      "lead": "U bereikt ons telefonisch via 038 333 8477 of via het contactformulier op onze website. Wij helpen u graag verder!",
+      "sections": [
+        {
+          "heading": "Welke informatie helpt ons uw vraag te beantwoorden?",
+          "paragraphs": [
+            "Voor aankoopadvies ontvangen wij graag het gewenste model, het type motor en uw eventuele accessoirewensen. Voor verhuur zijn de gewenste begin- en einddatum van belang. Heeft u een technische vraag of zoekt u een onderdeel, stuur dan een foto van de trailer en het betreffende onderdeel en vermeld indien mogelijk het chassisnummer en bouwjaar. Bij een aanvraag voor een CoC-document is het chassisnummer bijzonder belangrijk."
+          ]
+        }
+      ],
+      "relatedIds": [
+        46,
+        47,
+        35
+      ],
+      "cta": {
+        "type": "contact",
+        "label": "Ga naar het contactformulier"
+      },
+      "links": [
+        "contact"
+      ],
+      "index": false,
+      "primaryPage": "contact",
+      "reviewStatus": "concept",
+      "lastReviewed": null
+    }
+  ]
+}

@@ -1,12 +1,23 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node scripts/build-kennisbank.mjs",
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/veel-gestelde-vragen", "destination": "/veelgestelde-vragen", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/images/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=2592000" }
+      ]
+    },
+    {
+      "source": "/(content|templates|scripts)/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" }
       ]
     },
     {

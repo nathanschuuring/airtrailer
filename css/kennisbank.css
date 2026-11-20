@@ -1,0 +1,842 @@
+/* Kennisbank (veelgestelde vragen). Aanvulling op airtrailer.css; alle klassen beginnen met kb-. */
+
+:root {
+  --kb-blue: #3498db;        /* merkblauw: randen, accenten, hover */
+  --kb-blue-text: #1d6fa9;   /* donkerder blauw voor tekst en knoppen (contrast 5,4:1 op wit) */
+  --kb-dark: #464343;        /* grijs van het menu */
+  --kb-text: #333;
+  --kb-muted: #5c5c5c;
+  --kb-line: #dadada;
+  --kb-soft: #f4f6f8;
+}
+
+/* ---------- Algemeen ---------- */
+
+.kb-visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  position: absolute;
+  overflow: hidden;
+}
+
+.kb-skip {
+  z-index: 2000;
+  color: #fff;
+  background-color: var(--kb-blue-text);
+  padding: 14px 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-120%);
+}
+
+.kb-skip:focus {
+  transform: none;
+}
+
+.kb-page a:focus-visible,
+.kb-page button:focus-visible,
+.kb-page input:focus-visible,
+.kb-context a:focus-visible {
+  outline: 3px solid var(--kb-blue-text);
+  outline-offset: 2px;
+}
+
+.kb-page .sctn-nav a:focus-visible,
+.kb-page .dv-menu-bg a:focus-visible,
+.kb-page .sctn-footer a:focus-visible,
+.kb-page .kb-cta a:focus-visible {
+  outline-color: #fff;
+}
+
+.kb-page .sctn-footer h2.h3-footer {
+  letter-spacing: .5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.kb-menu-heading {
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.kb-page .dv-menu-wrapper {
+  overflow-y: auto;
+}
+
+.kb-hero {
+  background-image: linear-gradient(#00000059, #00000059), url('../images/kennisbank-header.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  height: 320px;
+  box-shadow: inset 0 -20px 20px -5px #00000040;
+}
+
+.kb-main {
+  color: var(--kb-text);
+}
+
+.kb-main a {
+  color: var(--kb-blue-text);
+}
+
+.kb-sheet {
+  background-color: #fff;
+  width: calc(100% - 48px);
+  margin-top: -96px;
+  padding: 36px 56px 48px;
+  position: relative;
+  box-shadow: 0 20px 50px #00000040;
+}
+
+.kb-label {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+/* ---------- Kruimelpad ---------- */
+
+.kb-breadcrumb ol {
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.kb-breadcrumb li {
+  color: var(--kb-muted);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  min-width: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.kb-breadcrumb li + li:before {
+  content: "/";
+  color: #999;
+  margin: 0 8px;
+}
+
+.kb-breadcrumb a {
+  text-decoration: none;
+}
+
+.kb-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.kb-breadcrumb-current {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 320px;
+  overflow: hidden;
+}
+
+/* ---------- Titel en direct antwoord ---------- */
+
+.kb-title {
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 0 0 24px;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.kb-overview-title {
+  margin: 0 0 16px;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.kb-lead {
+  color: #222;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.kb-article .kb-lead {
+  border-left: 4px solid var(--kb-blue);
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.kb-primary {
+  background-color: #eef5fb;
+  margin: 24px 0 0;
+  padding: 14px 18px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.kb-primary a {
+  font-weight: 700;
+}
+
+/* ---------- Artikel ---------- */
+
+.kb-layout {
+  grid-template-columns: minmax(0, 1fr) 300px;
+  align-items: start;
+  gap: 56px;
+  width: calc(100% - 48px);
+  padding: 48px 56px 72px;
+  display: grid;
+}
+
+.kb-layout:before,
+.kb-layout:after,
+.kb-overview:before,
+.kb-overview:after {
+  display: none;
+}
+
+.kb-body p,
+.kb-body li {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.kb-body p {
+  margin: 0 0 16px;
+}
+
+.kb-body section + section {
+  margin-top: 36px;
+}
+
+.kb-body h2 {
+  letter-spacing: 0;
+  text-transform: none;
+  scroll-margin-top: 24px;
+  margin: 0 0 12px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.kb-body > p:first-child {
+  margin-top: 0;
+}
+
+.kb-body .kb-sources h2 {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.kb-sources ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.kb-reviewed {
+  color: var(--kb-muted);
+  border-top: 1px solid var(--kb-line);
+  margin-top: 36px !important;
+  padding-top: 16px;
+  font-size: 14px !important;
+}
+
+.kb-aside {
+  position: sticky;
+  top: 24px;
+}
+
+/* ---------- Vervolgstap (call-to-action) ---------- */
+
+.kb-cta {
+  color: #fff;
+  background-color: var(--kb-dark);
+  padding: 28px;
+}
+
+.kb-cta p {
+  color: #ececec;
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.kb-cta-actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.kb-btn,
+.kb-main a.kb-btn {
+  color: var(--kb-blue-text);
+  letter-spacing: .5px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 2px solid #fff;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  padding: 10px 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  transition: background-color .2s, color .2s;
+  display: inline-flex;
+}
+
+.kb-btn:hover,
+.kb-main a.kb-btn:hover {
+  color: #fff;
+  background-color: var(--kb-blue-text);
+  border-color: var(--kb-blue-text);
+}
+
+.kb-btn-secondary,
+.kb-main a.kb-btn-secondary {
+  color: #fff;
+  background-color: #0000;
+  border-color: #fff;
+}
+
+.kb-btn-secondary:hover,
+.kb-main a.kb-btn-secondary:hover {
+  color: var(--kb-dark);
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.kb-cta-wide {
+  margin-top: 72px;
+  padding: 40px 56px;
+}
+
+.kb-cta-wide p {
+  max-width: 560px;
+}
+
+.kb-cta-wide .kb-btn {
+  flex: none;
+}
+
+.kb-links {
+  border: 1px solid var(--kb-line);
+  border-top: 0;
+  padding: 24px 28px;
+}
+
+.kb-links ul,
+.kb-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kb-links li + li {
+  margin-top: 10px;
+}
+
+.kb-links a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+/* ---------- Kaarten ---------- */
+
+.kb-cards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.kb-card {
+  background-color: #fff;
+  border: 1px solid var(--kb-line);
+  padding: 20px 52px 20px 24px;
+  transition: box-shadow .2s;
+  position: relative;
+}
+
+.kb-card:after {
+  content: "";
+  background: url('../images/chevrons2x.png') 50% / 12px 10px no-repeat;
+  width: 12px;
+  height: 10px;
+  position: absolute;
+  top: 28px;
+  right: 22px;
+}
+
+.kb-card:hover,
+.kb-card:focus-within {
+  box-shadow: 0 0 0 2px var(--kb-blue);
+}
+
+.kb-card-title {
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 0 0 6px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.kb-main .kb-card-title a {
+  color: #222;
+  text-decoration: none;
+}
+
+.kb-card-title a:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  inset: 0;
+}
+
+.kb-page .kb-card-title a:focus-visible {
+  outline: none;
+}
+
+.kb-card:has(a:focus-visible) {
+  outline: 3px solid var(--kb-blue-text);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+.kb-card p {
+  color: var(--kb-muted);
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* ---------- Gerelateerde vragen ---------- */
+
+.kb-related {
+  background-color: var(--kb-soft);
+  padding: 56px 0 64px;
+}
+
+.kb-related-inner {
+  width: calc(100% - 48px);
+  padding: 0 56px;
+}
+
+.kb-related .kb-card {
+  border-color: #0000;
+}
+
+.kb-related .kb-label {
+  margin-bottom: 16px;
+}
+
+.kb-related .kb-cards + .kb-label {
+  margin-top: 48px;
+}
+
+.kb-list {
+  column-gap: 32px;
+  columns: 2;
+}
+
+.kb-list li {
+  break-inside: avoid;
+  padding: 6px 0;
+}
+
+.kb-list a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.kb-back {
+  margin: 40px 0 0;
+}
+
+.kb-back a {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* ---------- Overzicht ---------- */
+
+.kb-search {
+  margin-top: 32px;
+}
+
+.kb-search label {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  display: block;
+}
+
+.kb-search-field {
+  position: relative;
+}
+
+.kb-search input {
+  color: #222;
+  appearance: none;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none' stroke='%23464343' stroke-width='2'%3E%3Ccircle cx='8.5' cy='8.5' r='6'/%3E%3Cpath d='m13 13 5 5'/%3E%3C/svg%3E") 18px 50% no-repeat;
+  border: 2px solid var(--kb-dark);
+  border-radius: 0;
+  width: 100%;
+  height: 56px;
+  margin: 0;
+  padding: 0 96px 0 50px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+
+.kb-search input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.kb-search input::placeholder {
+  color: #6b6b6b;
+}
+
+.kb-search-clear {
+  color: var(--kb-blue-text);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  height: 44px;
+  padding: 0 14px;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.kb-search-status {
+  color: var(--kb-muted);
+  min-height: 22px;
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.kb-categories ul {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.kb-main .kb-categories a {
+  color: var(--kb-text);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  border: 1px solid var(--kb-line);
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 6px 14px;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  transition: box-shadow .2s;
+  display: inline-flex;
+}
+
+.kb-categories a:hover {
+  box-shadow: 0 0 0 2px var(--kb-blue);
+}
+
+.kb-count {
+  color: var(--kb-muted);
+  font-weight: 600;
+}
+
+.kb-overview {
+  width: calc(100% - 48px);
+  padding: 8px 56px 88px;
+}
+
+.kb-category {
+  scroll-margin-top: 16px;
+  padding-top: 56px;
+}
+
+.kb-category h2 {
+  margin: 0 0 4px;
+}
+
+.kb-category-intro {
+  color: var(--kb-muted);
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.kb-empty {
+  text-align: center;
+  padding: 72px 0 0;
+}
+
+.kb-empty p {
+  font-size: 16px;
+}
+
+.kb-search [hidden],
+.kb-categories[hidden],
+.kb-overview [hidden] {
+  display: none !important;
+}
+
+/* ---------- Blok met vragen op product-, verhuur-, instructie- en contactpagina ---------- */
+
+.kb-context {
+  border-top: 1px solid var(--kb-line);
+  margin-top: 56px;
+  margin-bottom: 32px;
+  padding-top: 24px;
+}
+
+.kb-context ul {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kb-context li {
+  border-bottom: 1px solid #ececec;
+  padding: 12px 0;
+}
+
+.kb-context li a {
+  color: var(--kb-blue-text);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  display: block;
+}
+
+.kb-context li span {
+  color: var(--kb-muted);
+  line-height: 22px;
+  display: block;
+}
+
+.kb-context-more {
+  margin: 16px 0 0;
+}
+
+.kb-context-more a {
+  color: var(--kb-blue-text);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* ---------- Tablet ---------- */
+
+@media screen and (max-width: 991px) {
+  .kb-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
+    padding-bottom: 56px;
+  }
+
+  .kb-aside {
+    position: static;
+  }
+
+  .kb-cta .kb-btn {
+    flex: none;
+  }
+}
+
+/* ---------- Mobiel ---------- */
+
+@media screen and (max-width: 767px) {
+  .kb-hero {
+    background-image: linear-gradient(#00000059, #00000059), url('../images/kennisbank-header-mobiel.jpg');
+    height: 190px;
+  }
+
+  .kb-sheet {
+    width: calc(100% - 32px);
+    margin-top: -56px;
+    padding: 20px 20px 28px;
+  }
+
+  .kb-breadcrumb ol {
+    margin-bottom: 12px;
+  }
+
+  .kb-breadcrumb-current {
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    position: absolute;
+  }
+
+  .kb-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .kb-overview-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .kb-lead {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .kb-article .kb-lead {
+    padding-left: 14px;
+  }
+
+  .kb-layout {
+    width: 100%;
+    padding: 32px 24px 48px;
+  }
+
+  .kb-body h2 {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .kb-cta,
+  .kb-cta-wide {
+    padding: 24px;
+  }
+
+  .kb-cta .kb-btn,
+  .kb-cta-wide .kb-btn {
+    flex: 1 1 100%;
+  }
+
+  .kb-links {
+    padding: 20px 24px;
+  }
+
+  .kb-cards {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .kb-card {
+    padding: 16px 44px 16px 18px;
+  }
+
+  .kb-card:after {
+    top: 23px;
+    right: 16px;
+  }
+
+  .kb-related {
+    padding: 40px 0 48px;
+  }
+
+  .kb-related-inner {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .kb-list {
+    columns: 1;
+  }
+
+  .kb-search input {
+    padding-right: 84px;
+  }
+
+  /* Onderwerpen als één horizontaal schuifbare rij, zodat de vragen snel in beeld komen. */
+  .kb-categories ul {
+    flex-wrap: nowrap;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 4px 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .kb-categories ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .kb-categories li {
+    flex: none;
+  }
+
+  .kb-main .kb-categories a {
+    white-space: nowrap;
+  }
+
+  .kb-overview {
+    width: 100%;
+    padding: 0 24px 56px;
+  }
+
+  .kb-category {
+    padding-top: 40px;
+  }
+
+  .kb-cta-wide {
+    margin-top: 48px;
+  }
+
+  .kb-context {
+    margin-top: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kb-btn,
+  .kb-card,
+  .kb-categories a {
+    transition: none;
+  }
+}

@@ -357,7 +357,7 @@ function buildContextBlock(attributes, file) {
     '        <ul>',
     ...items,
     '        </ul>',
-    `        <p class="kb-context-more"><a href="${basePath}">Alle veelgestelde vragen</a></p>`,
+    `        <p class="kb-context-more"><a href="${basePath}" class="btn w-button">Alle veelgestelde vragen</a></p>`,
     '      </section>',
     '      ',
   ].join('\n');

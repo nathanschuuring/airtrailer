@@ -231,8 +231,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 2,
@@ -268,8 +268,8 @@
       "links": [
         "werking"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 3,
@@ -305,8 +305,8 @@
       "links": [
         "werking"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 4,
@@ -343,8 +343,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 5,
@@ -381,8 +381,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 6,
@@ -418,8 +418,8 @@
       "links": [
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 7,
@@ -455,8 +455,8 @@
       "links": [
         "werking"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 8,
@@ -493,8 +493,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 9,
@@ -531,8 +531,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 10,
@@ -569,8 +569,8 @@
         "contact",
         "dealers"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 11,
@@ -606,8 +606,8 @@
       "links": [
         "werking"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 12,
@@ -644,8 +644,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 13,
@@ -682,8 +682,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 14,
@@ -719,8 +719,8 @@
       "links": [
         "verhuur"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 15,
@@ -757,8 +757,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 16,
@@ -794,8 +794,8 @@
       "links": [
         "mono"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 17,
@@ -832,8 +832,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 18,
@@ -869,8 +869,8 @@
       "links": [
         "mono"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 19,
@@ -903,8 +903,8 @@
         "type": "advies",
         "label": "Vraag naar de passende diefstalbeveiliging"
       },
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 20,
@@ -937,8 +937,8 @@
         "type": "advies",
         "label": "Vraag advies over de disselverlenging"
       },
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 21,
@@ -975,8 +975,8 @@
         "scootmobiel",
         "over-ons"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 22,
@@ -1019,8 +1019,8 @@
           "href": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/rijbewijs/met-welk-rijbewijs-mag-ik-een-motorvoertuig-met-aanhangwagen-besturen"
         }
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 23,
@@ -1057,8 +1057,8 @@
         "mono",
         "duo"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 24,
@@ -1097,8 +1097,8 @@
           "href": "https://shop.dekra.nl/diensten/tempo-100/"
         }
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 25,
@@ -1134,8 +1134,8 @@
       "links": [
         "contact"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 26,
@@ -1168,8 +1168,8 @@
         "type": "documenten",
         "label": "Vraag naar uw trailerpapieren"
       },
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 27,
@@ -1207,8 +1207,8 @@
       ],
       "index": false,
       "primaryPage": "verhuur",
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 28,
@@ -1246,8 +1246,8 @@
       ],
       "index": false,
       "primaryPage": "verhuur",
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 29,
@@ -1283,8 +1283,8 @@
       "links": [
         "verhuur"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 30,
@@ -1320,8 +1320,8 @@
       "links": [
         "verhuur"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 31,
@@ -1357,8 +1357,8 @@
       "links": [
         "verhuur"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 32,
@@ -1395,8 +1395,8 @@
         "verhuur",
         "contact"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 33,
@@ -1432,8 +1432,8 @@
       "links": [
         "verhuur"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 34,
@@ -1475,8 +1475,8 @@
           "href": "https://shop.dekra.nl/diensten/tempo-100/"
         }
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 35,
@@ -1512,8 +1512,8 @@
       "links": [
         "contact"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 36,
@@ -1549,8 +1549,8 @@
       "links": [
         "contact"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 37,
@@ -1586,8 +1586,8 @@
       "links": [
         "dealers"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 38,
@@ -1623,8 +1623,8 @@
       "links": [
         "werking"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 39,
@@ -1657,8 +1657,8 @@
         "type": "service",
         "label": "Vraag een technische inspectie aan"
       },
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 40,
@@ -1691,8 +1691,8 @@
         "type": "service",
         "label": "Vraag advies over uw luchtvering"
       },
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 41,
@@ -1728,8 +1728,8 @@
       "links": [
         "werking"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 42,
@@ -1765,8 +1765,8 @@
       "links": [
         "werking"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 43,
@@ -1802,8 +1802,8 @@
       "links": [
         "over-ons"
       ],
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 44,
@@ -1836,8 +1836,8 @@
         "type": "vanvossen",
         "label": "Controleer eerst het merk van uw trailer"
       },
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 45,
@@ -1870,8 +1870,8 @@
         "type": "vanvossen",
         "label": "Bekijk de uitleg over traileridentificatie"
       },
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 46,
@@ -1907,8 +1907,8 @@
       ],
       "index": false,
       "primaryPage": "contact",
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 47,
@@ -1940,8 +1940,8 @@
       ],
       "index": false,
       "primaryPage": "contact",
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     },
     {
       "id": 48,
@@ -1973,8 +1973,8 @@
       ],
       "index": false,
       "primaryPage": "contact",
-      "reviewStatus": "concept",
-      "lastReviewed": null
+      "reviewStatus": "goedgekeurd",
+      "lastReviewed": "2026-11-20"
     }
   ]
 }

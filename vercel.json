@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node scripts/build-kennisbank.mjs",
+  "buildCommand": "node scripts/build-kennisbank.mjs && node scripts/build-configurator.mjs",
   "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "source": "/(content|templates|scripts)/(.*)",
+      "source": "/(content|templates|scripts|configurator|tests)/(.*)",
       "headers": [
         { "key": "X-Robots-Tag", "value": "noindex" }
       ]

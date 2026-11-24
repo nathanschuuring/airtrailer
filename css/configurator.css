@@ -1,0 +1,1652 @@
+/* Configurator. Aanvulling op airtrailer.css; alle klassen beginnen met cfg-.
+   Kleuren en lettertypen volgen de site: Montserrat voor koppen en bedragen, Open Sans voor
+   lopende tekst, het merkblauw als accent, rechte hoeken en de zachte schaduw van de witte vlakken. */
+
+.cfg {
+  --cfg-blue: #3498db;        /* merkblauw: accenten en vlakken */
+  --cfg-blue-text: #1d6fa9;   /* donkerder blauw voor tekst, randen en knoppen (5,4:1 op wit) */
+  --cfg-blue-soft: #eaf4fb;
+  --cfg-ink: #1c1c1c;
+  --cfg-text: #333;
+  --cfg-muted: #5c5c5c;
+  --cfg-line: #dadada;
+  --cfg-field: #767676;       /* rand van invoervelden (4,5:1 op wit) */
+  --cfg-soft: #f4f6f8;
+  --cfg-warn: #8a4b00;
+  --cfg-warn-soft: #fff7e6;
+  --cfg-error: #b3261e;
+  --cfg-shadow: 0 20px 50px #0000001f;
+  --cfg-heading: Montserrat, sans-serif;
+
+  color: var(--cfg-text);
+  background-color: var(--cfg-soft);
+  padding: 80px 0 96px;
+  font-size: 15px;
+  line-height: 1.6;
+  position: relative;
+}
+
+.cfg:focus {
+  outline: none;
+}
+
+.cfg *,
+.cfg *::before,
+.cfg *::after {
+  box-sizing: border-box;
+}
+
+.cfg [hidden] {
+  display: none !important;
+}
+
+/* Basis binnen de configurator. Door :where() tellen deze regels even zwaar als de
+   element-regels van de site zelf (en winnen ze omdat dit bestand later laadt), terwijl elke
+   klasse hieronder ze zonder !important kan overschrijven. */
+:where(.cfg) p,
+:where(.cfg) ul,
+:where(.cfg) ol,
+:where(.cfg) dl,
+:where(.cfg) dd,
+:where(.cfg) figure,
+:where(.cfg) fieldset,
+:where(.cfg) h2,
+:where(.cfg) h3,
+:where(.cfg) h4,
+:where(.cfg) h5 {
+  margin: 0;
+  padding: 0;
+}
+
+:where(.cfg) p {
+  line-height: 1.6;
+}
+
+:where(.cfg) ul,
+:where(.cfg) ol {
+  list-style: none;
+}
+
+:where(.cfg) fieldset {
+  border: 0;
+  min-width: 0;
+}
+
+:where(.cfg) label {
+  margin: 0;
+  font-weight: inherit;
+}
+
+.cfg img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cfg a {
+  color: var(--cfg-blue-text);
+}
+
+.cfg :focus-visible {
+  outline: 3px solid var(--cfg-blue-text);
+  outline-offset: 2px;
+}
+
+.cfg-visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  position: absolute;
+  overflow: hidden;
+}
+
+.cfg-wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Tweede route in de kop van de productpagina (staat buiten .cfg). */
+.cfg-alt-route {
+  margin: 14px 0 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cfg-alt-route a {
+  color: #1d6fa9;
+}
+
+.cfg-alt-route a:focus-visible {
+  outline: 3px solid #1d6fa9;
+  outline-offset: 2px;
+}
+
+/* ---------- Kop en stappen ---------- */
+
+.cfg-intro {
+  max-width: 760px;
+  margin-bottom: 56px;
+}
+
+.cfg-eyebrow,
+.cfg-step-label {
+  color: var(--cfg-blue-text);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: var(--cfg-heading);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.cfg .cfg-title {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: var(--cfg-heading);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.cfg-lead {
+  color: var(--cfg-muted);
+  margin-top: 16px;
+  font-size: 17px;
+}
+
+.cfg-steps {
+  margin-top: 32px;
+}
+
+.cfg-steps ol {
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  display: flex;
+}
+
+.cfg-steps a {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  font-family: var(--cfg-heading);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.cfg-steps a:hover {
+  color: var(--cfg-blue-text);
+  text-decoration: underline;
+}
+
+.cfg-steps-number {
+  color: var(--cfg-blue-text);
+  border: 2px solid var(--cfg-blue-text);
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  display: inline-flex;
+}
+
+.cfg-notice {
+  background-color: #fff;
+  border-left: 4px solid var(--cfg-blue-text);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px 24px;
+  margin-top: 28px;
+  padding: 14px 18px;
+  display: flex;
+}
+
+/* ---------- Indeling ---------- */
+
+.cfg-layout {
+  grid-template-columns: minmax(0, 1fr) 360px;
+  align-items: start;
+  gap: 48px;
+  display: grid;
+}
+
+.cfg-aside {
+  position: sticky;
+  top: 24px;
+}
+
+.cfg-step {
+  scroll-margin-top: 24px;
+}
+
+.cfg-main .cfg-step + .cfg-step {
+  margin-top: 72px;
+}
+
+.cfg .cfg-step-title {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-top: 4px;
+  font-family: var(--cfg-heading);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.cfg .cfg-step-title:focus {
+  outline: none;
+}
+
+.cfg-step-intro {
+  color: var(--cfg-muted);
+  margin-top: 8px;
+}
+
+/* ---------- Stap 1: het model ---------- */
+
+.cfg-stage {
+  background-color: #fff;
+  box-shadow: var(--cfg-shadow);
+  margin-top: 24px;
+}
+
+.cfg-stage-figure {
+  padding: 32px 40px 8px;
+}
+
+.cfg-stage-figure img {
+  width: 100%;
+}
+
+.cfg-stage-note {
+  color: var(--cfg-muted);
+  border-top: 1px solid var(--cfg-line);
+  margin-top: 16px;
+  padding-top: 12px;
+  font-size: 13px;
+}
+
+.cfg-stage-info {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 8px 48px;
+  padding: 24px 40px 40px;
+  display: grid;
+}
+
+.cfg-stage-name {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  grid-column: 1;
+  font-family: var(--cfg-heading);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.cfg-stage-price {
+  color: var(--cfg-ink);
+  grid-column: 1;
+  font-family: var(--cfg-heading);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cfg-stage-price strong {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.cfg-stage-from,
+.cfg-stage-vat {
+  color: var(--cfg-muted);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.cfg-stage-text {
+  grid-column: 1;
+  margin-top: 8px;
+}
+
+.cfg-included-title {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  grid-area: 1 / 2;
+  align-self: end;
+  font-family: var(--cfg-heading);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cfg-included {
+  grid-area: 2 / 2 / span 3;
+}
+
+.cfg-included li {
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+.cfg-icon {
+  flex: none;
+}
+
+.cfg-included .cfg-icon {
+  color: var(--cfg-blue-text);
+  margin-top: 4px;
+}
+
+/* Uitvoeringen */
+
+.cfg-variants {
+  margin-top: 32px;
+}
+
+.cfg-variants-legend,
+.cfg .cfg-group-title,
+.cfg-lines-title,
+.cfg .cfg-summary-title {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: var(--cfg-heading);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.cfg-variants-legend {
+  margin-bottom: 14px;
+  padding: 0;
+}
+
+.cfg-variants-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  display: grid;
+}
+
+.cfg-variant {
+  background-color: #fff;
+  border: 1px solid var(--cfg-line);
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.cfg-variant:hover {
+  border-color: var(--cfg-field);
+}
+
+.cfg-variant.is-selected,
+.cfg-variant:has(.cfg-variant-input:checked) {
+  border-color: var(--cfg-blue-text);
+  box-shadow: inset 0 0 0 1px var(--cfg-blue-text);
+}
+
+.cfg-variant:has(.cfg-variant-input:focus-visible) {
+  outline: 3px solid var(--cfg-blue-text);
+  outline-offset: 2px;
+}
+
+.cfg-variant-input,
+.cfg-toggle-input {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  position: absolute;
+}
+
+.cfg-variant-label {
+  cursor: pointer;
+  flex: 1;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-content: start;
+  gap: 4px 16px;
+  padding: 20px 22px;
+  display: grid;
+}
+
+.cfg-variant-mark {
+  color: transparent;
+  border: 2px solid var(--cfg-field);
+  border-radius: 50%;
+  grid-area: 1 / 2;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  display: flex;
+}
+
+.cfg-variant-input:checked + .cfg-variant-label .cfg-variant-mark {
+  color: #fff;
+  background-color: var(--cfg-blue-text);
+  border-color: var(--cfg-blue-text);
+}
+
+.cfg-variant-name {
+  color: var(--cfg-ink);
+  grid-area: 1 / 1;
+  font-family: var(--cfg-heading);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cfg-variant-badge,
+.cfg-tag {
+  color: var(--cfg-text);
+  background-color: var(--cfg-soft);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  font-family: var(--cfg-heading);
+  font-size: 10.5px;
+  font-weight: 700;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.cfg-variant-badge {
+  vertical-align: 2px;
+  margin-left: 6px;
+}
+
+.cfg-variant-benefit {
+  grid-column: 1 / -1;
+  font-size: 14px;
+}
+
+.cfg-variant-price {
+  color: var(--cfg-ink);
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  font-family: var(--cfg-heading);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cfg-variant > .cfg-more {
+  border-top: 1px solid var(--cfg-line);
+  margin: 0 22px;
+  padding: 8px 0 12px;
+}
+
+/* ---------- Stap 2: accessoires ---------- */
+
+.cfg-group {
+  margin-top: 40px;
+}
+
+.cfg-group-intro {
+  color: var(--cfg-muted);
+  margin-top: 2px;
+}
+
+.cfg-cards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+  display: grid;
+}
+
+.cfg-card {
+  background-color: #fff;
+  border: 1px solid var(--cfg-line);
+  flex-direction: column;
+  padding: 22px;
+  display: flex;
+  position: relative;
+}
+
+.cfg--js .cfg-card {
+  cursor: pointer;
+}
+
+.cfg--js .cfg-card:hover {
+  border-color: var(--cfg-field);
+}
+
+.cfg-card.is-selected,
+.cfg--js .cfg-card.is-selected:hover {
+  border-color: var(--cfg-blue-text);
+  box-shadow: inset 0 0 0 1px var(--cfg-blue-text);
+}
+
+.cfg-card--featured {
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  grid-template-rows: 1fr auto;
+  gap: 0 28px;
+  padding: 0;
+  display: grid;
+}
+
+.cfg-card--featured .cfg-card-media {
+  grid-row: 1 / span 3;
+  min-height: 100%;
+}
+
+.cfg-card--featured .cfg-card-media img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cfg-card--featured .cfg-card-body {
+  padding: 24px 24px 0 0;
+}
+
+.cfg-card--featured .cfg-card-foot {
+  margin: 16px 24px 24px 0;
+}
+
+.cfg-card--featured > .cfg-hint,
+.cfg-card--featured > .cfg-conflict {
+  grid-column: 2;
+  margin: 0 24px 24px 0;
+}
+
+.cfg-card-body {
+  flex: 1;
+}
+
+.cfg .cfg-card-title {
+  color: var(--cfg-ink);
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: var(--cfg-heading);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cfg-card-spec {
+  color: var(--cfg-muted);
+  font-size: 13px;
+}
+
+.cfg-card-benefit {
+  margin-top: 8px;
+}
+
+.cfg-card-body .cfg-tag,
+.cfg-sub-text .cfg-tag {
+  margin: 10px 6px 0 0;
+}
+
+.cfg-more {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.cfg-more summary {
+  color: var(--cfg-blue-text);
+  cursor: pointer;
+  align-items: center;
+  min-height: 32px;
+  font-weight: 600;
+  text-decoration: underline;
+  display: inline-flex;
+}
+
+.cfg-more p,
+.cfg-more ul {
+  margin-top: 4px;
+}
+
+.cfg-card-foot,
+.cfg-sub-foot {
+  border-top: 1px solid var(--cfg-line);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px 16px;
+  margin-top: 18px;
+  padding-top: 16px;
+  display: flex;
+}
+
+.cfg-price {
+  color: var(--cfg-ink);
+  font-family: var(--cfg-heading);
+  font-size: 17px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.3;
+}
+
+.cfg-price--muted {
+  color: var(--cfg-muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.cfg-price-unit {
+  color: var(--cfg-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Knop "Toevoegen" (een selectievakje met het uiterlijk van een knop) */
+
+.cfg-control {
+  position: relative;
+}
+
+.cfg:not(.cfg--js) .cfg-control {
+  display: none;
+}
+
+.cfg-toggle-label,
+.cfg-button {
+  color: var(--cfg-blue-text);
+  background-color: #fff;
+  border: 2px solid var(--cfg-blue-text);
+  border-radius: 1px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 18px;
+  font-family: var(--cfg-heading);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.cfg-toggle-label:hover,
+.cfg-button:hover {
+  background-color: var(--cfg-blue-soft);
+}
+
+.cfg-toggle-on,
+.cfg-toggle-input:checked + .cfg-toggle-label .cfg-toggle-off {
+  display: none;
+}
+
+.cfg-toggle-input:checked + .cfg-toggle-label .cfg-toggle-on {
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.cfg-toggle-input:checked + .cfg-toggle-label,
+.cfg .cfg-button--primary {
+  color: #fff;
+  background-color: var(--cfg-blue-text);
+}
+
+.cfg-toggle-input:checked + .cfg-toggle-label:hover,
+.cfg .cfg-button--primary:hover {
+  background-color: #175a8a;
+  border-color: #175a8a;
+}
+
+.cfg-toggle-input:focus-visible + .cfg-toggle-label {
+  outline: 3px solid var(--cfg-blue-text);
+  outline-offset: 2px;
+}
+
+.cfg-button--wide {
+  width: 100%;
+}
+
+.cfg-button[aria-disabled="true"] {
+  opacity: .6;
+  cursor: progress;
+}
+
+.cfg .cfg-link {
+  color: var(--cfg-blue-text);
+  cursor: pointer;
+  background: none;
+  border: 0;
+  align-items: center;
+  min-height: 32px;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  display: inline-flex;
+}
+
+/* Aantal kiezen */
+
+.cfg-qty {
+  align-items: center;
+  display: inline-flex;
+}
+
+.cfg-qty-button {
+  color: var(--cfg-blue-text);
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid var(--cfg-blue-text);
+  border-radius: 1px;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  font-family: var(--cfg-heading);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  display: inline-flex;
+}
+
+.cfg-qty-button:hover {
+  background-color: var(--cfg-blue-soft);
+}
+
+.cfg-qty-button[aria-disabled="true"] {
+  color: var(--cfg-field);
+  border-color: var(--cfg-line);
+  cursor: not-allowed;
+  background-color: var(--cfg-soft);
+}
+
+.cfg-qty-value {
+  color: var(--cfg-ink);
+  text-align: center;
+  min-width: 44px;
+  font-family: var(--cfg-heading);
+  font-size: 17px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.cfg-qty--small .cfg-qty-button {
+  width: 36px;
+  height: 36px;
+  font-size: 17px;
+}
+
+.cfg-qty--small .cfg-qty-value {
+  min-width: 34px;
+  font-size: 15px;
+}
+
+/* Montageplaatsen */
+
+.cfg-slots {
+  background-color: #fff;
+  border-left: 4px solid var(--cfg-blue-text);
+  align-items: center;
+  gap: 18px;
+  margin-top: 16px;
+  padding: 14px 18px;
+  display: flex;
+}
+
+.cfg-slots-meter {
+  flex: none;
+  gap: 6px;
+  display: flex;
+}
+
+.cfg-slots-pip {
+  border: 2px solid var(--cfg-blue-text);
+  width: 30px;
+  height: 14px;
+}
+
+.cfg-slots-pip.is-used {
+  background-color: var(--cfg-blue-text);
+}
+
+.cfg-slots-status {
+  color: var(--cfg-ink);
+  font-family: var(--cfg-heading);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.cfg-slots-why {
+  color: var(--cfg-muted);
+  font-size: 13.5px;
+}
+
+/* Keuzes onder een accessoire */
+
+.cfg--js .cfg-sub {
+  cursor: default;
+}
+
+.cfg-sub {
+  border-top: 1px solid var(--cfg-line);
+  margin-top: 18px;
+  padding-top: 16px;
+}
+
+.cfg-sub-title {
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: var(--cfg-heading);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+.cfg-sub-item {
+  padding: 14px 0 2px;
+}
+
+.cfg-sub-item + .cfg-sub-item {
+  border-top: 1px dashed var(--cfg-line);
+  margin-top: 14px;
+}
+
+.cfg-sub-name {
+  color: var(--cfg-ink);
+  font-weight: 700;
+}
+
+.cfg-sub-benefit {
+  font-size: 14px;
+}
+
+.cfg-sub-foot {
+  border-top: 0;
+  margin-top: 10px;
+  padding-top: 0;
+}
+
+.cfg-sub-foot .cfg-price {
+  font-size: 15px;
+}
+
+/* Toelichting en uitleg bij een onmogelijke combinatie */
+
+.cfg-hint {
+  color: var(--cfg-warn);
+  margin-top: 10px;
+  font-size: 13.5px;
+}
+
+.cfg-conflict {
+  background-color: var(--cfg-warn-soft);
+  border-left: 4px solid var(--cfg-warn);
+  cursor: default;
+  margin-top: 16px;
+  padding: 16px 18px 18px;
+  /* Ruimte houden voor de vaste prijsbalk op mobiel als de uitleg in beeld scrolt. */
+  scroll-margin: 24px 0 104px;
+}
+
+.cfg-conflict:focus {
+  outline: 3px solid var(--cfg-warn);
+  outline-offset: 2px;
+}
+
+.cfg-conflict-title {
+  color: var(--cfg-ink);
+  font-family: var(--cfg-heading);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cfg-conflict-text {
+  margin-top: 4px;
+}
+
+.cfg-conflict-actions {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+  display: flex;
+}
+
+.cfg-variants > .cfg-conflict {
+  margin-top: 16px;
+}
+
+/* ---------- Samenvatting ---------- */
+
+.cfg-summary {
+  background-color: #fff;
+  box-shadow: var(--cfg-shadow);
+  max-height: calc(100vh - 48px);
+  padding: 28px 28px 24px;
+  overflow-y: auto;
+}
+
+.cfg-lines {
+  margin-top: 16px;
+}
+
+.cfg-line {
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 6px 0;
+  display: flex;
+}
+
+.cfg-line dt {
+  font-weight: 400;
+}
+
+.cfg-line dd,
+.cfg-item-price,
+.cfg-row-price,
+.cfg-overview-base {
+  color: var(--cfg-ink);
+  white-space: nowrap;
+  font-family: var(--cfg-heading);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.cfg-line-sub {
+  color: var(--cfg-muted);
+  font-size: 13px;
+  display: block;
+}
+
+.cfg-line--discount dd {
+  color: #1b6e3c;
+}
+
+.cfg-on-request {
+  color: var(--cfg-muted);
+  font-family: var(--cfg-heading);
+  font-size: 12.5px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.cfg-lines-title {
+  border-top: 1px solid var(--cfg-line);
+  margin-top: 14px;
+  padding-top: 18px;
+  font-size: 12px;
+}
+
+.cfg-item {
+  grid-template-columns: minmax(0, 1fr) auto 36px;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+  display: grid;
+}
+
+.cfg-item--child .cfg-item-name,
+.cfg-row--child .cfg-row-text {
+  padding-left: 14px;
+}
+
+.cfg-items {
+  margin-top: 6px;
+}
+
+.cfg-remove {
+  color: var(--cfg-muted);
+  cursor: pointer;
+  background: none;
+  border: 1px solid #0000;
+  border-radius: 1px;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  display: inline-flex;
+}
+
+.cfg-remove:hover {
+  color: var(--cfg-error);
+  border-color: var(--cfg-line);
+}
+
+.cfg-empty {
+  color: var(--cfg-muted);
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.cfg-total {
+  border-top: 2px solid var(--cfg-ink);
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-top: 16px;
+  padding-top: 16px;
+  display: flex;
+}
+
+.cfg-total-label {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: var(--cfg-heading);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.cfg-total-vat {
+  color: var(--cfg-muted);
+  font-size: 11px;
+}
+
+.cfg-total-price {
+  color: var(--cfg-ink);
+  white-space: nowrap;
+  font-family: var(--cfg-heading);
+  font-size: 26px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+.cfg-total--large .cfg-total-price {
+  font-size: 34px;
+}
+
+.cfg-note {
+  background-color: var(--cfg-soft);
+  margin-top: 14px;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+
+.cfg-summary .cfg-button--wide {
+  margin-top: 20px;
+}
+
+.cfg-summary .cfg-link {
+  margin-top: 10px;
+  font-size: 13.5px;
+}
+
+.cfg-nojs {
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+/* ---------- Stap 3: overzicht en aanvraag ---------- */
+
+.cfg-finish {
+  border-top: 1px solid var(--cfg-line);
+  margin-top: 80px;
+  padding-top: 64px;
+}
+
+.cfg-finish-grid {
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  align-items: start;
+  gap: 48px;
+  margin-top: 28px;
+  display: grid;
+}
+
+.cfg-overview,
+.cfg-request {
+  background-color: #fff;
+  box-shadow: var(--cfg-shadow);
+  padding: 36px 40px 40px;
+}
+
+.cfg-overview-head {
+  grid-template-columns: 132px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 20px;
+  display: grid;
+}
+
+.cfg-overview-image {
+  width: 132px;
+}
+
+.cfg-overview-name {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: var(--cfg-heading);
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.cfg-overview-variant {
+  font-size: 14px;
+}
+
+.cfg-overview-variant .cfg-link {
+  margin-left: 6px;
+}
+
+.cfg-overview-base {
+  font-size: 16px;
+}
+
+.cfg-overview-included {
+  margin-top: 14px;
+}
+
+.cfg-overview-included ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.cfg-rows {
+  margin-top: 4px;
+}
+
+.cfg-row {
+  border-bottom: 1px solid var(--cfg-line);
+  grid-template-columns: minmax(0, 1fr) auto auto 36px;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 0;
+  display: grid;
+}
+
+.cfg-row-name {
+  color: var(--cfg-ink);
+  font-weight: 700;
+  display: block;
+}
+
+.cfg-row-spec,
+.cfg-row-each {
+  color: var(--cfg-muted);
+  white-space: nowrap;
+  margin-right: 10px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.cfg-row .cfg-qty {
+  grid-column: 2;
+}
+
+.cfg-row-price {
+  text-align: right;
+  grid-column: 3;
+  min-width: 92px;
+  font-size: 15px;
+}
+
+.cfg-row .cfg-remove {
+  grid-column: 4;
+}
+
+.cfg-overview-edit {
+  margin-top: 12px;
+}
+
+.cfg-lines--totals {
+  border-top: 1px solid var(--cfg-line);
+  margin-top: 20px;
+  padding-top: 12px;
+}
+
+.cfg-share {
+  border-top: 1px solid var(--cfg-line);
+  margin-top: 28px;
+  padding-top: 24px;
+}
+
+.cfg-share-note {
+  color: var(--cfg-muted);
+  margin-top: 10px;
+  font-size: 13.5px;
+}
+
+.cfg-share-input {
+  border: 1px solid var(--cfg-field);
+  width: 100%;
+  min-height: 44px;
+  margin-top: 6px;
+  padding: 8px 10px;
+  font: inherit;
+  display: block;
+}
+
+/* Formulier */
+
+.cfg .cfg-form-title {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-family: var(--cfg-heading);
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.cfg-form-intro {
+  margin-top: 8px;
+}
+
+.cfg-field {
+  margin-top: 20px;
+}
+
+.cfg .cfg-field label {
+  color: var(--cfg-ink);
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  font-family: var(--cfg-heading);
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+}
+
+.cfg-optional {
+  color: var(--cfg-muted);
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.cfg-field input,
+.cfg-field textarea {
+  color: var(--cfg-ink);
+  background-color: #fff;
+  border: 1px solid var(--cfg-field);
+  border-radius: 1px;
+  width: 100%;
+  min-height: 48px;
+  padding: 11px 14px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+}
+
+.cfg-field textarea {
+  resize: vertical;
+}
+
+.cfg-field input:focus-visible,
+.cfg-field textarea:focus-visible {
+  border-color: var(--cfg-blue-text);
+  outline-offset: 0;
+}
+
+.cfg-field [aria-invalid="true"] {
+  border: 2px solid var(--cfg-error);
+}
+
+.cfg-field-error {
+  color: var(--cfg-error);
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cfg-field-error::before {
+  content: "Let op: ";
+}
+
+.cfg-field-help,
+.cfg-privacy {
+  color: var(--cfg-muted);
+  margin-top: 6px;
+  font-size: 13.5px;
+}
+
+.cfg-privacy {
+  margin-top: 14px;
+}
+
+.cfg-hp {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -9999px;
+  overflow: hidden;
+}
+
+.cfg-check {
+  align-items: flex-start;
+  gap: 12px;
+  margin: 20px 0 24px;
+  display: flex;
+}
+
+.cfg-check input {
+  accent-color: var(--cfg-blue-text);
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+.cfg-check label {
+  cursor: pointer;
+}
+
+.cfg-form-errors {
+  background-color: var(--cfg-warn-soft);
+  border-left: 4px solid var(--cfg-error);
+  margin-top: 20px;
+  padding: 14px 18px;
+}
+
+.cfg-form-errors p + p {
+  margin-top: 8px;
+}
+
+.cfg-confirmation:focus {
+  outline: none;
+}
+
+.cfg-confirmation > * + * {
+  margin-top: 14px;
+}
+
+.cfg-confirmation-mark {
+  color: #fff;
+  background-color: var(--cfg-blue-text);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  display: flex;
+}
+
+/* ---------- Prijsbalk (mobiel) ---------- */
+
+.cfg-bar {
+  display: none;
+}
+
+/* ---------- Beweging ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  .cfg-card,
+  .cfg-variant-label,
+  .cfg-toggle-label,
+  .cfg-button,
+  .cfg-qty-button,
+  .cfg-slots-pip,
+  .cfg-variant-mark {
+    transition: border-color .18s, background-color .18s, box-shadow .18s, color .18s, transform .18s;
+  }
+
+  .cfg--js .cfg-card:hover {
+    transform: translateY(-2px);
+  }
+
+  .cfg-conflict {
+    animation: .22s ease-out cfg-rise;
+  }
+
+  .cfg-total-price.is-updated,
+  .cfg-bar-price.is-updated {
+    animation: .45s ease-out cfg-tick;
+  }
+
+  .cfg-stage-figure img {
+    transition: opacity .25s;
+  }
+}
+
+@keyframes cfg-rise {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes cfg-tick {
+  0% {
+    color: var(--cfg-blue-text);
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+/* ---------- Tablet en mobiel ---------- */
+
+@media screen and (max-width: 991px) {
+  .cfg {
+    padding: 56px 0 72px;
+  }
+
+  .cfg-layout {
+    display: block;
+  }
+
+  /* De samenvatting rechts vervalt: de prijsbalk onderin en het overzicht in stap 3 nemen het over. */
+  .cfg--js .cfg-aside {
+    display: none;
+  }
+
+  .cfg-aside {
+    margin-top: 40px;
+    position: static;
+  }
+
+  .cfg-finish-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .cfg-bar {
+    z-index: 900;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px calc(10px + env(safe-area-inset-bottom));
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -8px 30px #00000026;
+  }
+
+  .cfg-bar-total {
+    grid-template-columns: auto;
+    line-height: 1.25;
+    display: grid;
+  }
+
+  .cfg-bar-label {
+    color: var(--cfg-muted);
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-family: var(--cfg-heading);
+    font-size: 10.5px;
+    font-weight: 700;
+  }
+
+  .cfg-bar-price {
+    color: var(--cfg-ink);
+    font-family: var(--cfg-heading);
+    font-size: 21px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    display: inline-block;
+  }
+
+  .cfg-bar-count {
+    color: var(--cfg-muted);
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cfg {
+    font-size: 15px;
+  }
+
+  .cfg-wrap {
+    padding: 0 20px;
+  }
+
+  .cfg-intro {
+    margin-bottom: 40px;
+  }
+
+  .cfg .cfg-title {
+    font-size: 27px;
+  }
+
+  .cfg-lead {
+    font-size: 16px;
+  }
+
+  .cfg-steps ol {
+    gap: 4px 20px;
+  }
+
+  .cfg .cfg-step-title {
+    font-size: 22px;
+  }
+
+  .cfg-main .cfg-step + .cfg-step {
+    margin-top: 56px;
+  }
+
+  .cfg-stage-figure {
+    padding: 20px 16px 0;
+  }
+
+  .cfg-stage-info {
+    padding: 20px 20px 28px;
+    display: block;
+  }
+
+  .cfg-included-title {
+    margin-top: 20px;
+  }
+
+  .cfg-variants-list,
+  .cfg-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .cfg-card--featured {
+    display: flex;
+  }
+
+  .cfg-card--featured .cfg-card-media {
+    min-height: 0;
+  }
+
+  .cfg-card--featured .cfg-card-media img {
+    aspect-ratio: 16 / 9;
+    height: auto;
+  }
+
+  .cfg-card--featured .cfg-card-body {
+    padding: 20px 22px 0;
+  }
+
+  .cfg-card--featured .cfg-card-foot,
+  .cfg-card--featured > .cfg-hint,
+  .cfg-card--featured > .cfg-conflict {
+    margin: 16px 22px 22px;
+  }
+
+  .cfg-card--featured > .cfg-hint,
+  .cfg-card--featured > .cfg-conflict {
+    margin-top: 0;
+  }
+
+  .cfg-slots {
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .cfg-slots-meter {
+    margin-top: 4px;
+  }
+
+  .cfg-conflict-actions .cfg-button {
+    width: 100%;
+  }
+
+  .cfg-finish {
+    margin-top: 56px;
+    padding-top: 48px;
+  }
+
+  .cfg-overview,
+  .cfg-request {
+    padding: 24px 20px 28px;
+  }
+
+  .cfg-overview-head {
+    grid-template-columns: 84px minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .cfg-overview-image {
+    width: 84px;
+  }
+
+  .cfg-overview-base {
+    grid-column: 2;
+  }
+
+  .cfg-row {
+    grid-template-columns: minmax(0, 1fr) auto 36px;
+    gap: 6px 10px;
+  }
+
+  .cfg-row .cfg-qty {
+    grid-area: 2 / 1;
+    justify-self: start;
+  }
+
+  .cfg-row-price {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  .cfg-row .cfg-remove {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .cfg-total--large .cfg-total-price {
+    font-size: 28px;
+  }
+}
+
+@media print {
+  .cfg-bar,
+  .cfg-control,
+  .cfg-remove,
+  .cfg-share,
+  .cfg-request {
+    display: none;
+  }
+}
